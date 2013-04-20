@@ -4,8 +4,9 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$DIR"
 
-# Where to find cURL and git
+# Where to find cURL, HTML tidy and git
 CURL=/usr/bin/curl
+TIDY=/usr/bin/tidy
 GIT=/usr/bin/git
 
 # Base to download datasets
@@ -24,6 +25,7 @@ for ds in $DATASETS; do
 	echo "Downloading dataset $ds"
 	mkdir --p "$ds"
 	$CURL -s "${URLBASE}/${ds}/content.xml" > "${ds}/content.xml" || die "Failed to download $ds content"
+	$TIDY -m -i -w 102 -xml "${ds}/content.xml"
 done
 
 echo "Checking in any changes"
