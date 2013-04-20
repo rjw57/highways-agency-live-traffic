@@ -29,5 +29,4 @@ done
 echo "Checking in any changes"
 $GIT add .
 $GIT commit -m "Automatic commit for `date`"
-$GIT push
 
