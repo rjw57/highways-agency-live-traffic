@@ -8,253 +8,11 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-20T20:20:02+01:00</publicationTime>
+    <publicationTime>2013-04-20T20:30:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
     </publicationCreator>
-    <situation id="GUID577521588">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="VehicleObstruction" id="GUID1-577521589">
-        <situationRecordCreationReference>U-13-0420-0077</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-20T15:25:44+01:00</situationRecordCreationTime>
-        <situationRecordVersion>16</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-20T19:49:00+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-20T19:49:00+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from WM RCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-20T15:25:44+01:00</overallStartTime>
-            <overallEndTime>2013-04-20T20:30:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-20T15:25:44+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-20T20:30:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>66.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M6 southbound between junctions J15 and J14, there are currently
-            delays of 10 mins caused by congestion due to a vehicle on fire closing one lane between
-            junctions J15 and J14. Normal traffic conditions expected from 8:30 pm. Link to Multimap:
-            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/389342,328084 Link to
-            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>southBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.850163</latitude>
-                  <longitude>-2.159702</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M6 southbound between J15 and J14</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.82957</latitude>
-                  <longitude>-2.144338</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J14</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M6</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A34</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.974396</latitude>
-                  <longitude>-2.226265</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J15</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M6</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A500</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <vehicleObstructionType>vehicleOnFire</vehicleObstructionType>
-      </situationRecord>
-      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577521589">
-        <situationRecordCreationReference>U-13-0420-0077</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-20T15:25:44+01:00</situationRecordCreationTime>
-        <situationRecordVersion>16</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-20T19:49:00+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-20T19:49:00+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from WM RCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-20T15:25:44+01:00</overallStartTime>
-            <overallEndTime>2013-04-20T20:30:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-20T15:25:44+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-20T20:30:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>66.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M6 southbound between junctions J15 and J14, there are currently
-            delays of 10 mins caused by congestion due to a vehicle on fire closing one lane between
-            junctions J15 and J14. Normal traffic conditions expected from 8:30 pm. Link to Multimap:
-            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/389342,328084 Link to
-            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>southBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.922153</latitude>
-                  <longitude>-2.205645</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M6 southbound between J15 and J14</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.82957</latitude>
-                  <longitude>-2.144338</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J14</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M6</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A34</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.974396</latitude>
-                  <longitude>-2.226265</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J15</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M6</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A500</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
-      </situationRecord>
-    </situation>
     <situation id="GUID577523077">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -769,10 +527,10 @@
       <situationRecord xsi:type="Accident" id="GUID1-577547187">
         <situationRecordCreationReference>U-13-0420-0107</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-20T19:13:14+01:00</situationRecordCreationTime>
-        <situationRecordVersion>9</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-20T20:12:59+01:00</situationRecordVersionTime>
+        <situationRecordVersion>12</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-20T20:25:36+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-20T20:12:59+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-20T20:25:36+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -784,10 +542,10 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-20T19:13:13+01:00</overallStartTime>
-            <overallEndTime>2013-04-20T20:45:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-20T21:30:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-20T19:13:13+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-20T20:45:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-20T21:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -801,15 +559,15 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A2 from Rochester towards Dartford between the junctions with the
-            A227 and the A2260, there are currently delays of 10 mins caused by congestion due to an
+            A227 and the A2260, there are currently delays of 15 mins caused by congestion due to an
             accident closing two lanes between the junctions with the A2260 and the M25. Normal
-            traffic conditions expected from 8:45 pm. Link to Multimap: Unavailable Link to
+            traffic conditions expected from 9:30 pm. Link to Multimap: Unavailable Link to
             Streetmap: http://streetmap.co.uk/grid/561620,172608 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
@@ -887,10 +645,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577547187">
         <situationRecordCreationReference>U-13-0420-0107</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-20T19:13:14+01:00</situationRecordCreationTime>
-        <situationRecordVersion>9</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-20T20:12:59+01:00</situationRecordVersionTime>
+        <situationRecordVersion>12</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-20T20:25:36+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-20T20:12:59+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-20T20:25:36+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -902,10 +660,10 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-20T19:13:13+01:00</overallStartTime>
-            <overallEndTime>2013-04-20T20:45:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-20T21:30:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-20T19:13:13+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-20T20:45:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-20T21:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -919,15 +677,15 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A2 from Rochester towards Dartford between the junctions with the
-            A227 and the A2260, there are currently delays of 10 mins caused by congestion due to an
+            A227 and the A2260, there are currently delays of 15 mins caused by congestion due to an
             accident closing two lanes between the junctions with the A2260 and the M25. Normal
-            traffic conditions expected from 8:45 pm. Link to Multimap: Unavailable Link to
+            traffic conditions expected from 9:30 pm. Link to Multimap: Unavailable Link to
             Streetmap: http://streetmap.co.uk/grid/561620,172608 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
@@ -1013,10 +771,10 @@
       <situationRecord xsi:type="Activities" id="GUID1-577549233">
         <situationRecordCreationReference>U-13-0420-0108</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-20T19:34:47+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-20T19:35:14+01:00</situationRecordVersionTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-20T20:25:32+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-20T19:35:14+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-20T20:25:32+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -1028,10 +786,10 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-20T19:34:45+01:00</overallStartTime>
-            <overallEndTime>2013-04-20T20:45:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-20T21:30:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-20T19:34:45+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-20T20:45:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-20T21:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -1051,7 +809,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The A2 from Rochester towards Dartford entry slip from the A2260 is
-            closed , due to an incident. Road expected to re-open from 8:45 pm. Link to Multimap:
+            closed , due to an incident. Road expected to re-open from 9:30 pm. Link to Multimap:
             Unavailable Link to Streetmap: http://streetmap.co.uk/grid/562159,172251 Link to
             Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
