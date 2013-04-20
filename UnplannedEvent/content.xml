@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-20T17:20:02+01:00</publicationTime>
+    <publicationTime>2013-04-20T17:30:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -517,10 +517,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID1-577529929">
         <situationRecordCreationReference>U-13-0420-0086</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-20T16:36:39+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-20T17:18:51+01:00</situationRecordVersionTime>
+        <situationRecordVersion>5</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-20T17:22:04+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-20T17:18:51+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-20T17:22:04+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -540,7 +540,7 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>2</numberOfLanesRestricted>
@@ -549,13 +549,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1200.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A45 from M1 J15 towards The A14 between the junctions with the
-            A43 and the A6, there are currently delays of 20 mins due to heavy traffic . Normal
+            A43 and the A6, there are currently delays of 15 mins due to heavy traffic . Normal
             traffic conditions expected from 5:45 pm. Link to Multimap: Unavailable Link to
             Streetmap: http://streetmap.co.uk/grid/480522,261582 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
@@ -640,13 +640,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-577533496">
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577533496">
         <situationRecordCreationReference>U-13-0420-0088</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-20T17:17:55+01:00</situationRecordCreationTime>
-        <situationRecordVersion>2</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-20T17:19:50+01:00</situationRecordVersionTime>
+        <situationRecordVersion>4</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-20T17:28:23+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-20T17:19:50+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-20T17:28:23+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -668,9 +668,9 @@
         <impact>
           <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>33.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>3</numberOfLanesRestricted>
+            <numberOfOperationalLanes>3</numberOfOperationalLanes>
             <originalNumberOfLanes>3</originalNumberOfLanes>
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
@@ -681,8 +681,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M1 southbound between junctions J34 and J33, there are currently
-            delays of 10 mins due to an accident closing two lanes. Normal traffic conditions
-            expected from 6:30 pm. Link to Multimap: Unavailable Link to Streetmap:
+            delays of 10 mins caused by congestion due to an earlier accident. Normal traffic
+            conditions expected from 6:30 pm. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/441441,389413 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
@@ -755,7 +755,7 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <accidentType>accident</accidentType>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
       </situationRecord>
     </situation>
   </payloadPublication>
