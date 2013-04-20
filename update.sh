@@ -13,7 +13,7 @@ GIT=/usr/bin/git
 URLBASE="http://hatrafficinfo.dft.gov.uk/feeds/datex/England"
 
 # Datasets to download
-DATASETS="PredefinedLocationJourneyTimeSections JourneyTimeData"
+DATASETS="PredefinedLocationJourneyTimeSections JourneyTimeData UnplannedEvent CurrentPlanned CurrentRoadworks"
 
 function die() {
 	echo $1 >&2
