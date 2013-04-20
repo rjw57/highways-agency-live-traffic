@@ -1,5 +1,5 @@
-highways-agency-live-traffic
-============================
+UK Highways Agency Live Data Archive
+====================================
 
 An automatically updated historical record of
 [traffic data](http://www.data.gov.uk/dataset/live-traffic-information-from-the-highways-agency-road-network) published by the UK Highways Agency.
