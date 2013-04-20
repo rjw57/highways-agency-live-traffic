@@ -28,6 +28,8 @@ for ds in $DATASETS; do
 	mkdir --p "$ds"
 	$CURL -s "${URLBASE}/${ds}/content.xml" > "${ds}/content.xml" || die "Failed to download $ds content"
 	$TIDY -m -i -w 102 -xml --quiet y "${ds}/content.xml"
+	$CURL -s "${URLBASE}/${ds}/metadata.xml" > "${ds}/metadata.xml" || die "Failed to download $ds metadata"
+	$TIDY -m -i -w 102 -xml --quiet y "${ds}/metadata.xml"
 done
 
 echo "Checking in any changes"
