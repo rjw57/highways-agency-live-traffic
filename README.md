@@ -1,8 +1,11 @@
 UK Highways Agency Live Data Archive
 ====================================
 
-An automatically updated historical record of
-[traffic data](http://www.data.gov.uk/dataset/live-traffic-information-from-the-highways-agency-road-network) published by the UK Highways Agency.
+An automatically updated historical record of [traffic
+data](http://www.data.gov.uk/dataset/live-traffic-information-from-the-highways-agency-road-network)
+published by the UK Highways Agency. The data is in the form of several XML
+databases. Each update to the database is recorded as a commit in the version
+history. The databases are re-indented to make them more diff-friendly.
 
 All data is re-published under the terms of the [Open Government
 Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/).
