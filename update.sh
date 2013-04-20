@@ -28,5 +28,5 @@ done
 
 echo "Checking in any changes"
 $GIT add .
-$GIT commit -m "Automatic commit for `date`"
+$GIT commit -m "Automatic commit for `/bin/date`"
 
