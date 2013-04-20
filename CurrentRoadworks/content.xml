@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-21T00:10:02+01:00</publicationTime>
+    <publicationTime>2013-04-21T00:20:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -8262,7 +8262,7 @@
           <comment>
             <value lang="en">On the A11 from Norwich towards Newmarket North between the junctions
             with the A134 Thetford West and the A1101, minor delays are possible due to roadworks .
-            Expect disruption until 9:00 am on 21 April 2013.</value>
+            Expect disruption until 9:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -9395,8 +9395,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M2 westbound between junctions J5 and J4, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00 am on
-            21 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -13883,6 +13883,133 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
+    <situation id="GUID573626474">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-573626475">
+        <situationRecordCreationReference>P-13-0327-0207</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-03-27T14:12:27Z</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-03-27T14:12:27Z</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-03-27T14:12:27Z</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2012-04-10T20:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-02T06:00:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2012-04-10T20:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-02T06:00:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:18:00</startTimeOfPeriod>
+                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>50.0</capacityRemaining>
+            <numberOfLanesRestricted>1</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M62 westbound entry slip at junction J29 , minor delays are
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>westBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>53.731552</latitude>
+                  <longitude>-1.516703</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M62 J29 westbound access</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.731552</latitude>
+                  <longitude>-1.516703</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J29</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M62</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M62</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.731552</latitude>
+                  <longitude>-1.516703</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J29</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M62</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
     <situation id="GUID573626740">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -14063,7 +14190,7 @@
           <comment>
             <value lang="en">On the A2 from Dover towards Faversham between the junctions with the
             A256 Whitfield West and the A260, minor delays are possible due to roadworks . Expect
-            disruption until 6:00 am on 21 April 2013.</value>
+            disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14191,7 +14318,7 @@
           <comment>
             <value lang="en">On the A2 from Faversham towards Dover between the junctions with the
             A260 and the A256 Whitfield West , minor delays are possible due to roadworks . Expect
-            disruption until 6:00 am on 21 April 2013.</value>
+            disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14826,7 +14953,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">At the junction of the A61 and the M1 J36 , minor delays are possible
-            due to roadworks . Expect disruption until 6:00 am on 21 April 2013.</value>
+            due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -15135,7 +15262,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">At the junction of the A61 and the M1 J36 , minor delays are possible
-            due to roadworks . Expect disruption until 6:00 am on 21 April 2013.</value>
+            due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -15226,7 +15353,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A64 southbound entry slip from the A166 , minor delays are
-            possible due to roadworks . Expect disruption until 6:00 am on 21 April 2013.</value>
+            possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -16470,7 +16597,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M2 westbound between junctions J6 and J5, minor delays are
-            possible due to roadworks . Expect disruption until 6:00 am on 21 April 2013.</value>
+            possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -18893,7 +19020,7 @@
           <comment>
             <value lang="en">On the A21 southbound between the junctions with the A25 and the A225,
             minor delays are possible due to roadworks closing one lane. Expect disruption until 6:00
-            am on 21 April 2013.</value>
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -19021,7 +19148,7 @@
           <comment>
             <value lang="en">On the A50 eastbound between the junctions with the A514 and the A6,
             minor delays are possible due to roadworks closing one lane. Expect disruption until 5:00
-            am on 21 April 2013.</value>
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -19741,8 +19868,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M25 clockwise between junctions J31 and J1A, minor delays are
-            possible due to roadworks closing two lanes. Expect disruption until 5:30 am on 21 April
-            2013.</value>
+            possible due to roadworks closing two lanes. Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -21339,7 +21465,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M6 northbound exit slip at junction J9 is closed , due to roadworks.
-            Road expected to re-open from 6:00 am on 21 April 2013.</value>
+            Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -22224,7 +22350,7 @@
           <comment>
             <value lang="en">On the A45 from The A14 towards M1 J15 between the junctions with the
             A14 and the A6, minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 6:00 am on 21 April 2013.</value>
+            disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -24481,7 +24607,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M60 clockwise exit slip at junction J24 is closed , due to
-            roadworks. Road expected to re-open from 5:00 am on 21 April 2013.</value>
+            roadworks. Road expected to re-open from 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -25621,7 +25747,7 @@
           <comment>
             <value lang="en">On the A21 southbound between the junctions with the A2100 north of
             Battle and the A28, minor delays are possible due to roadworks . Expect disruption until
-            6:00 am on 21 April 2013.</value>
+            6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -25749,7 +25875,7 @@
           <comment>
             <value lang="en">On the A21 northbound between the junctions with the A28 and the A2100
             north of Battle, minor delays are possible due to roadworks . Expect disruption until
-            6:00 am on 21 April 2013.</value>
+            6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -25876,7 +26002,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M65 eastbound exit slip at junction J10 , minor delays are
-            possible due to roadworks . Expect disruption until 6:00 am on 21 April 2013.</value>
+            possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -26640,7 +26766,7 @@
           <comment>
             <value lang="en">On the A30 from Honiton towards Penzance between the junctions with the
             A390 and the A3047 Redruth East , minor delays are possible due to roadworks closing one
-            lane. Expect disruption until 6:00 am on 21 April 2013.</value>
+            lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -27151,7 +27277,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The A1 northbound is closed between the junctions with the A603 and the
-            A421, due to roadworks. Road expected to re-open from 6:00 am on 21 April 2013.</value>
+            A421, due to roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -27278,8 +27404,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A590 westbound between the junctions with the A5087 and the A595,
-            minor delays are possible due to roadworks . Expect disruption until 6:00 am on 21 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -27406,8 +27531,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A590 eastbound between the junctions with the A595 and the A5087,
-            minor delays are possible due to roadworks . Expect disruption until 6:00 am on 21 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -27661,8 +27785,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A64 northbound exit slip to the A1079 , minor delays are possible
-            due to roadworks closing one lane. Expect disruption until 6:00 am on 21 April
-            2013.</value>
+            due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -28040,7 +28163,7 @@
           <comment>
             <value lang="en">On the A30 from Penzance towards Honiton between the junctions with the
             A386 and the A382, minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 4:00 am on 21 April 2013.</value>
+            disruption until 4:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -30432,8 +30555,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M1 southbound between junctions J12 and J11, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 5:00 am on 21 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -32324,8 +32446,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 northbound between junctions J8 and J7, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 5:30 am on 21 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -32818,7 +32939,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M25 clockwise entry slip at junction J20 is closed , due to
-            roadworks. Road expected to re-open from 5:00 am on 21 April 2013.</value>
+            roadworks. Road expected to re-open from 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -34592,7 +34713,7 @@
           <comment>
             <value lang="en">On the A38 from The M1 towards Sutton Coldfield between the junctions
             with the A50 and the A5121 Burton upon Trent South , minor delays are possible due to
-            roadworks closing one lane. Expect disruption until 6:00 am on 21 April 2013.</value>
+            roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -35614,7 +35735,7 @@
           <comment>
             <value lang="en">On the A5 from Harpenden towards Cannock between the junctions with the
             A45 and the A361, minor delays are possible due to roadworks . Expect disruption until
-            6:00 am on 21 April 2013.</value>
+            6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -35737,8 +35858,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A1 northbound between the junctions with the A1068 and the A1167,
-            minor delays are possible due to roadworks . Expect disruption until 11:59 pm on 21 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -35861,8 +35981,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A1 southbound between the junctions with the A1167 and the A1068,
-            minor delays are possible due to roadworks . Expect disruption until 11:59 pm on 21 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -36990,8 +37109,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M20 eastbound between junctions J8 and J9, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 21 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -37118,8 +37236,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M20 westbound between junctions J9 and J8, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 21 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -37868,8 +37985,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A49 northbound between the junctions with the A40 and the A465,
-            minor delays are possible due to roadworks . Expect disruption until 5:00 pm on 21 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 5:00 pm.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -38240,7 +38356,7 @@
           <comment>
             <value lang="en">On the A20 from Folkestone towards Dover between the junctions with the
             A256 Dover West and the A256 Dover East , minor delays are possible due to roadworks
-            closing one lane. Expect disruption until 6:00 am on 21 April 2013.</value>
+            closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -40013,7 +40129,7 @@
           <comment>
             <value lang="en">On the A3 northbound between the junctions with the A3(M) and the A272
             Petersfield South , minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 6:00 am on 21 April 2013.</value>
+            disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42031,8 +42147,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A1 northbound exit slip to the A19 , minor delays are possible
-            due to roadworks closing one lane. Expect disruption until 6:00 am on 21 April
-            2013.</value>
+            due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42280,7 +42395,7 @@
           <comment>
             <value lang="en">On the A12 from The M25 towards Ipswich between the junctions with the
             A120 Colchester East and the A14, minor delays are possible due to roadworks closing one
-            lane. Expect disruption until 6:00 am on 21 April 2013.</value>
+            lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42404,8 +42519,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A12 from Ipswich towards The M25 exit slip to the A1124 , minor
-            delays are possible due to roadworks closing one lane. Expect disruption until 6:00 am on
-            21 April 2013.</value>
+            delays are possible due to roadworks closing one lane. Expect disruption until 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42657,7 +42772,7 @@
           <comment>
             <value lang="en">On the A12 from Ipswich towards The M25 between the junctions with the
             A14 and the A120 Colchester East, minor delays are possible due to roadworks closing one
-            lane. Expect disruption until 6:00 am on 21 April 2013.</value>
+            lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42781,7 +42896,7 @@
           <comment>
             <value lang="en">On the A14 eastbound between junctions J54 Ipswich West and J55 Copdock,
             minor delays are possible due to roadworks closing one lane. Expect disruption until 5:30
-            am on 21 April 2013.</value>
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
