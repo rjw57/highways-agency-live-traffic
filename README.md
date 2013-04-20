@@ -6,3 +6,5 @@ An automatically updated historical record of
 
 All data is re-published under the terms of the [Open Government
 Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/).
+
+This mirroring service is not in any way affiliated with the UK Government. It exists only for a personal project.
