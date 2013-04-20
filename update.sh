@@ -15,7 +15,7 @@ URLBASE="http://hatrafficinfo.dft.gov.uk/feeds/datex/England"
 # Datasets to download
 DATASETS="PredefinedLocationJourneyTimeSections JourneyTimeData \
 	UnplannedEvent CurrentPlanned CurrentRoadworks FuturePlanned \
-	FutureRoadworks TrafficData"
+	FutureRoadworks TrafficData PredefinedLocationLinks"
 
 function die() {
 	echo $1 >&2
