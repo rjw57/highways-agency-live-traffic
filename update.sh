@@ -23,7 +23,7 @@ function die() {
 for ds in $DATASETS; do
 	echo "Downloading dataset $ds"
 	mkdir --p "$ds"
-	$CURL -s "${URLBASE}/${ds}/content" > "${ds}/content.xml" || die "Failed to download $ds content"
+	$CURL -s "${URLBASE}/${ds}/content.xml" > "${ds}/content.xml" || die "Failed to download $ds content"
 done
 
 echo "Checking in any changes"
