@@ -25,7 +25,7 @@ for ds in $DATASETS; do
 	echo "Downloading dataset $ds"
 	mkdir --p "$ds"
 	$CURL -s "${URLBASE}/${ds}/content.xml" > "${ds}/content.xml" || die "Failed to download $ds content"
-	$TIDY -m -i -w 102 -xml "${ds}/content.xml"
+	$TIDY -m -i -w 102 -xml --quiet y "${ds}/content.xml"
 done
 
 echo "Checking in any changes"
