@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-21T21:10:02+01:00</publicationTime>
+    <publicationTime>2013-04-21T21:20:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -141,168 +141,40 @@
         <roadMaintenanceType>resurfacingWork</roadMaintenanceType>
       </situationRecord>
     </situation>
-    <situation id="GUID577544086">
+    <situation id="GUID577708696">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
         <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-577544087">
-        <situationRecordCreationReference>U-13-0420-0105</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-20T18:52:22+01:00</situationRecordCreationTime>
-        <situationRecordVersion>5</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-21T07:14:07+01:00</situationRecordVersionTime>
+      <situationRecord xsi:type="VehicleObstruction" id="GUID1-577708699">
+        <situationRecordCreationReference>U-13-0421-0245</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-21T21:14:31+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-21T21:14:55+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-21T07:14:07+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-21T21:14:55+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
           <sourceName>
-            <value lang="en">On Call to E RCC</value>
+            <value lang="en">Call frorm ERCC</value>
           </sourceName>
         </sourceInformation>
         <validity>
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
-            <overallStartTime>2013-04-20T18:52:21+01:00</overallStartTime>
-            <overallEndTime>2013-04-22T12:00:00+01:00</overallEndTime>
+            <overallStartTime>2013-04-21T21:14:32+01:00</overallStartTime>
+            <overallEndTime>2013-04-21T22:15:00+01:00</overallEndTime>
             <validPeriod>
-              <startOfPeriod>2013-04-20T18:52:21+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-22T12:00:00+01:00</endOfPeriod>
+              <startOfPeriod>2013-04-21T21:14:32+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-21T22:15:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>impossible</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
-            <originalNumberOfLanes>1</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">The A12 from Lowestoft towards Great Yarmouth is closed between the
-            junctions with the A1114 Lowestoft East and the A1117, due to carriageway resurfacing
-            work. Road expected to re-open from 12:00 pm on 22 April 2013. Link to Multimap:
-            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/654179,295050 Link to
-            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>northBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.494102</latitude>
-                  <longitude>1.743035</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A12 northbound between A1144 near Lowestoft (east) and
-                    A1117</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.50243</latitude>
-                  <longitude>1.73285</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A12</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A1117</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.481716</latitude>
-                  <longitude>1.753843</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A12</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A1114</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
-        <urgentRoadworks>true</urgentRoadworks>
-        <roadMaintenanceType>resurfacingWork</roadMaintenanceType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID577697201">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="VehicleObstruction" id="GUID1-577697202">
-        <situationRecordCreationReference>U-13-0421-0240</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-21T19:35:40+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-21T20:21:22+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-21T20:21:22+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from NERCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-21T19:35:41+01:00</overallStartTime>
-            <overallEndTime>2013-04-21T21:30:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-21T19:35:41+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-21T21:30:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>50.0</capacityRemaining>
             <numberOfLanesRestricted>1</numberOfLanesRestricted>
@@ -311,15 +183,15 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>0.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the A19 northbound between the junctions with the A1018 and the A690,
-            there are currently delays of 10 mins due to a vehicle on fire closing one lane. Normal
-            traffic conditions expected from 9:30 pm. Link to Multimap: Unavailable Link to
-            Streetmap: http://streetmap.co.uk/grid/438626,550894 Link to Disclaimer:
+            <value lang="en">On the A34 northbound entry slip from the M4 , minor delays are possible
+            due to a broken down vehicle closing one lane. Normal traffic conditions expected from
+            10:15 pm. Link to Multimap: Unavailable Link to Streetmap:
+            http://streetmap.co.uk/grid/447985,173433 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
@@ -330,20 +202,20 @@
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>54.85137</latitude>
-                  <longitude>-1.399948</longitude>
+                  <latitude>51.457848</latitude>
+                  <longitude>-1.310726</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">A19 northbound between A1018/B1404 and A690</value>
+                    <value lang="en">A34 northbound access from M4</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
               </framedPoint>
               <to xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>54.86305</latitude>
-                  <longitude>-1.443537</longitude>
+                  <latitude>51.457848</latitude>
+                  <longitude>-1.310726</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -353,21 +225,21 @@
                 </name>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A19</value>
+                    <value lang="en">A34</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A690</value>
+                    <value lang="en">A34</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>54.846447</latitude>
-                  <longitude>-1.380399</longitude>
+                  <latitude>51.457848</latitude>
+                  <longitude>-1.310726</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -377,13 +249,13 @@
                 </name>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A19</value>
+                    <value lang="en">A34</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A1018</value>
+                    <value lang="en">M4</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
@@ -391,7 +263,7 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <vehicleObstructionType>vehicleOnFire</vehicleObstructionType>
+        <vehicleObstructionType>brokenDownVehicle</vehicleObstructionType>
       </situationRecord>
     </situation>
   </payloadPublication>
