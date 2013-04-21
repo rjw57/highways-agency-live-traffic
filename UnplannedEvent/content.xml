@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-21T07:00:02+01:00</publicationTime>
+    <publicationTime>2013-04-21T07:10:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -392,131 +392,6 @@
           </locationContainedInGroup>
         </groupOfLocations>
         <accidentType>accident</accidentType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID577620166">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-577620170">
-        <situationRecordCreationReference>U-13-0421-0005</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-21T06:57:04+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-21T06:57:18+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-21T06:57:18+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">TCC System</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-21T06:57:06+01:00</overallStartTime>
-            <overallEndTime>2013-04-21T08:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-21T06:57:06+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-21T08:00:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>100.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A34 northbound between the junctions with the A44 and the M40,
-            there are currently delays of 10 mins due to heavy traffic . Normal traffic conditions
-            expected from 8:00 am. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/452957,216823 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>northBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>51.847507</latitude>
-                  <longitude>-1.232613</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A34 northbound between B4027 and B430</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.868393</latitude>
-                  <longitude>-1.199826</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A34</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M40</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.797718</latitude>
-                  <longitude>-1.28314</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A34</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A44</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
       </situationRecord>
     </situation>
   </payloadPublication>
