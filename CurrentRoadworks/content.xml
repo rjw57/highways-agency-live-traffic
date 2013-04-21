@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-22T00:10:02+01:00</publicationTime>
+    <publicationTime>2013-04-22T00:20:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -3381,8 +3381,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A34 southbound between the junctions with the A272 and the A33,
-            minor delays are possible due to roadworks . Expect disruption until 6:00 am on 22 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -5000,8 +4999,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M3 westbound between junctions J3 and J4, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 22 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -11003,7 +11001,7 @@
           <comment>
             <value lang="en">On the A34 southbound between the junctions with the A423 north of
             Kennington and the A415, minor delays are possible due to roadworks closing one lane.
-            Expect disruption until 6:00 am on 22 April 2013.</value>
+            Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -13246,6 +13244,133 @@
           </locationContainedInGroup>
         </groupOfLocations>
         <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID573626474">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-573626475">
+        <situationRecordCreationReference>P-13-0327-0207</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-03-27T14:12:27Z</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-03-27T14:12:27Z</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-03-27T14:12:27Z</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2012-04-10T20:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-02T06:00:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2012-04-10T20:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-02T06:00:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:18:00</startTimeOfPeriod>
+                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>50.0</capacityRemaining>
+            <numberOfLanesRestricted>1</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M62 westbound entry slip at junction J29 , minor delays are
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>westBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>53.731552</latitude>
+                  <longitude>-1.516703</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M62 J29 westbound access</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.731552</latitude>
+                  <longitude>-1.516703</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J29</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M62</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M62</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.731552</latitude>
+                  <longitude>-1.516703</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J29</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M62</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
@@ -21431,7 +21556,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M62 eastbound is closed between junctions J25 and J26, due to
-            roadworks. Road expected to re-open from 6:00 am on 22 April 2013.</value>
+            roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -23217,7 +23342,7 @@
           <comment>
             <value lang="en">On the A34 southbound between the junctions with the A423 north of
             Kennington and the A415, minor delays are possible due to roadworks . Expect disruption
-            until 6:00 am on 22 April 2013.</value>
+            until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -25117,8 +25242,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A43 southbound between the junctions with the A421 and the M40,
-            minor delays are possible due to roadworks . Expect disruption until 6:00 am on 22 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -27033,8 +27157,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M3 westbound between junctions J3 and J4, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 22 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -27284,7 +27407,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M48 westbound is closed between junctions J1 and J2, due to
-            roadworks. Road expected to re-open from 6:00 am on 22 April 2013.</value>
+            roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -29551,8 +29674,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M3 westbound between junctions J2 and J3, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 22 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -30315,7 +30437,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M4 westbound exit slip at junction J8 is closed , due to roadworks.
-            Road expected to re-open from 6:00 am on 22 April 2013.</value>
+            Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -35634,8 +35756,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M4 westbound between junctions J14 and J15, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00 am on
-            22 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -37530,8 +37652,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M3 westbound between junctions J2 and J3, there are currently
-            delays of 10 mins due to roadworks closing three lanes. Expect disruption until 6:00 am
-            on 22 April 2013.</value>
+            delays of 10 mins due to roadworks closing three lanes. Expect disruption until 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -38540,8 +38662,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M40 northbound between junctions J15 and J16, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 5:00 am on 22 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -39543,8 +39664,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M4 westbound between junctions J14 and J15, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00 am on
-            22 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
