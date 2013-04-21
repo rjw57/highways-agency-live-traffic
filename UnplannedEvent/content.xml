@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-21T12:50:02+01:00</publicationTime>
+    <publicationTime>2013-04-21T13:00:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -404,10 +404,10 @@
       <situationRecord xsi:type="Accident" id="GUID1-577646253">
         <situationRecordCreationReference>U-13-0421-0033</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-21T11:16:57+01:00</situationRecordCreationTime>
-        <situationRecordVersion>8</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-21T12:44:47+01:00</situationRecordVersionTime>
+        <situationRecordVersion>10</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-21T12:58:51+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-21T12:44:47+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-21T12:58:51+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -436,15 +436,15 @@
             <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>2400.0</delayTimeValue>
+            <delayTimeValue>1800.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the A34 northbound between the junctions with the A420 and the M40,
-            there are currently delays of 40 mins caused by congestion due to an accident closing two
-            lanes between the junctions with the A44 and the M40. Normal traffic conditions expected
-            from 1:45 pm. Link to Multimap: Unavailable Link to Streetmap:
+            <value lang="en">On the A34 northbound between the junctions with the A44 and the M40,
+            there are currently delays of 30 mins caused by congestion due to an overturned vehicle
+            closing two lanes between the junctions with the A44 and the M40. Normal traffic
+            conditions expected from 1:45 pm. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/451667,215335 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
@@ -517,15 +517,15 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <accidentType>accident</accidentType>
+        <accidentType>overturnedVehicle</accidentType>
       </situationRecord>
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577646253">
         <situationRecordCreationReference>U-13-0421-0033</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-21T11:16:57+01:00</situationRecordCreationTime>
-        <situationRecordVersion>8</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-21T12:44:47+01:00</situationRecordVersionTime>
+        <situationRecordVersion>10</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-21T12:58:51+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-21T12:44:47+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-21T12:58:51+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -554,15 +554,15 @@
             <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>2400.0</delayTimeValue>
+            <delayTimeValue>1800.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the A34 northbound between the junctions with the A420 and the M40,
-            there are currently delays of 40 mins caused by congestion due to an accident closing two
-            lanes between the junctions with the A44 and the M40. Normal traffic conditions expected
-            from 1:45 pm. Link to Multimap: Unavailable Link to Streetmap:
+            <value lang="en">On the A34 northbound between the junctions with the A44 and the M40,
+            there are currently delays of 30 mins caused by congestion due to an overturned vehicle
+            closing two lanes between the junctions with the A44 and the M40. Normal traffic
+            conditions expected from 1:45 pm. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/451667,215335 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
@@ -574,12 +574,12 @@
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>51.776707</latitude>
-                  <longitude>-1.304563</longitude>
+                  <latitude>51.812325</latitude>
+                  <longitude>-1.267474</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">A34 northbound between A420 and A44</value>
+                    <value lang="en">A34 northbound between A44 and B4027</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
@@ -610,8 +610,8 @@
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>51.75872</latitude>
-                  <longitude>-1.295957</longitude>
+                  <latitude>51.797718</latitude>
+                  <longitude>-1.28314</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -627,7 +627,7 @@
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A420</value>
+                    <value lang="en">A44</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
@@ -636,131 +636,6 @@
           </locationContainedInGroup>
         </groupOfLocations>
         <abnormalTrafficType>slowTraffic</abnormalTrafficType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID577652720">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="VehicleObstruction" id="GUID1-577652721">
-        <situationRecordCreationReference>U-13-0421-0094</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-21T12:25:16+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-21T12:25:58+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-21T12:25:58+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from ERCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-21T12:25:16+01:00</overallStartTime>
-            <overallEndTime>2013-04-21T13:30:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-21T12:25:16+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-21T13:30:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>freeFlow</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>75.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>3</numberOfOperationalLanes>
-            <originalNumberOfLanes>4</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>0.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M40 northbound between junctions J1A and J2, minor delays are
-            possible due to a vehicle on fire closing one lane. Normal traffic conditions expected
-            from 1:30 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/498439,187352 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>northBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>51.57645</latitude>
-                  <longitude>-0.580837</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M40 northbound between J1A and J2</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.59238</latitude>
-                  <longitude>-0.621369</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J2</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M40</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A355</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.561607</latitude>
-                  <longitude>-0.539404</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J1A</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M40</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M25</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <vehicleObstructionType>vehicleOnFire</vehicleObstructionType>
       </situationRecord>
     </situation>
     <situation id="GUID577654521">
@@ -1003,6 +878,212 @@
                 <ilc>
                   <descriptor>
                     <value lang="en">A3100</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID577656167">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="Accident" id="GUID1-577656171">
+        <situationRecordCreationReference>U-13-0421-0110</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-21T12:55:06+01:00</situationRecordCreationTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-21T12:56:12+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-21T12:56:12+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">Call from NERCC</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-21T12:55:06+01:00</overallStartTime>
+            <overallEndTime>2013-04-21T14:00:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-21T12:55:06+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-21T14:00:00+01:00</endOfPeriod>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>33.0</capacityRemaining>
+            <numberOfLanesRestricted>2</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>3</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>900.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M1 southbound between junctions J33 and J32, there are currently
+            delays of 15 mins caused by congestion due to a multi-vehicle accident closing two lanes
+            at junction J32. Normal traffic conditions expected from 2:00 pm. Link to Multimap:
+            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/447899,388430 Link to
+            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGSimplePoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>intersection</tpegLocationType>
+              <point xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.39056</latitude>
+                  <longitude>-1.28123</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J32</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M18</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </point>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <accidentType>multivehicleAccident</accidentType>
+      </situationRecord>
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577656171">
+        <situationRecordCreationReference>U-13-0421-0110</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-21T12:55:06+01:00</situationRecordCreationTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-21T12:56:12+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-21T12:56:12+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">Call from NERCC</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-21T12:55:06+01:00</overallStartTime>
+            <overallEndTime>2013-04-21T14:00:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-21T12:55:06+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-21T14:00:00+01:00</endOfPeriod>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>33.0</capacityRemaining>
+            <numberOfLanesRestricted>2</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>3</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>900.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M1 southbound between junctions J33 and J32, there are currently
+            delays of 15 mins caused by congestion due to a multi-vehicle accident closing two lanes
+            at junction J32. Normal traffic conditions expected from 2:00 pm. Link to Multimap:
+            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/447899,388430 Link to
+            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>53.39861</latitude>
+                  <longitude>-1.316949</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M1 southbound between J33 and J32</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.396744</latitude>
+                  <longitude>-1.291412</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J32</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M18</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.398914</latitude>
+                  <longitude>-1.342767</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J33</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A630</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
