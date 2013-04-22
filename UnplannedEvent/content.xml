@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-22T14:40:02+01:00</publicationTime>
+    <publicationTime>2013-04-22T14:50:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -276,10 +276,10 @@
       <situationRecord xsi:type="VehicleObstruction" id="GUID1-577810954">
         <situationRecordCreationReference>U-13-0422-0088</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-22T12:45:46+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T14:17:05+01:00</situationRecordVersionTime>
+        <situationRecordVersion>4</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-22T14:40:30+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T14:17:05+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-22T14:40:30+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -291,10 +291,10 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-22T12:45:46+01:00</overallStartTime>
-            <overallEndTime>2013-04-22T15:00:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-22T15:45:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-22T12:45:46+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-22T15:00:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-22T15:45:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -315,7 +315,7 @@
           <comment>
             <value lang="en">On the M25 clockwise entry slip at junction J6 , minor delays are
             possible due to a broken down vehicle closing one lane. Normal traffic conditions
-            expected from 3:00 pm. Link to Multimap: Unavailable Link to Streetmap:
+            expected from 3:45 pm. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/535042,152802 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
@@ -523,94 +523,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-577818956">
-        <situationRecordCreationReference>U-13-0422-0149</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-22T13:53:45+01:00</situationRecordCreationTime>
-        <situationRecordVersion>5</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T14:38:23+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-22T14:38:23+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from SWRCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-22T13:53:45+01:00</overallStartTime>
-            <overallEndTime>2013-04-22T15:45:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-22T13:53:45+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-22T15:45:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>66.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M5 southbound between junctions J16 and J17, there are currently
-            delays of 10 mins caused by congestion due to an accident closing one lane at junction
-            J17. Normal traffic conditions expected from 3:45 pm. Link to Multimap: Unavailable Link
-            to Streetmap: http://streetmap.co.uk/grid/357870,181276 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGSimplePoint">
-              <tpegDirection>southBound</tpegDirection>
-              <tpegLocationType>intersection</tpegLocationType>
-              <point xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.528812</latitude>
-                  <longitude>-2.608712</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J17</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M5</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A4018</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </point>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <accidentType>accident</accidentType>
-      </situationRecord>
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577818956">
         <situationRecordCreationReference>U-13-0422-0149</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-22T13:53:45+01:00</situationRecordCreationTime>
-        <situationRecordVersion>5</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T14:38:23+01:00</situationRecordVersionTime>
+        <situationRecordVersion>6</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-22T14:43:59+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T14:38:23+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-22T14:43:59+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -632,9 +551,9 @@
         <impact>
           <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>66.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>3</numberOfLanesRestricted>
+            <numberOfOperationalLanes>3</numberOfOperationalLanes>
             <originalNumberOfLanes>3</originalNumberOfLanes>
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
@@ -645,9 +564,9 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 southbound between junctions J16 and J17, there are currently
-            delays of 10 mins caused by congestion due to an accident closing one lane at junction
-            J17. Normal traffic conditions expected from 3:45 pm. Link to Multimap: Unavailable Link
-            to Streetmap: http://streetmap.co.uk/grid/357870,181276 Link to Disclaimer:
+            delays of 10 mins caused by congestion due to an earlier accident. Normal traffic
+            conditions expected from 3:45 pm. Link to Multimap: Unavailable Link to Streetmap:
+            http://streetmap.co.uk/grid/359289,182271 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
@@ -670,8 +589,8 @@
               </framedPoint>
               <to xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>51.529774</latitude>
-                  <longitude>-2.603132</longitude>
+                  <latitude>51.527363</latitude>
+                  <longitude>-2.613998</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
