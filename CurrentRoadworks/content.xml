@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-23T00:00:02+01:00</publicationTime>
+    <publicationTime>2013-04-23T00:10:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -10405,7 +10405,7 @@
           <comment>
             <value lang="en">On the A5 from The Welsh Border towards Telford West between the
             junctions with the A458 South of Shrewsbury and the A5064, minor delays are possible due
-            to roadworks . Expect disruption until 6:00 am on 23 April 2013.</value>
+            to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -10534,7 +10534,7 @@
           <comment>
             <value lang="en">On the A5 from Telford West towards The Welsh Border between the
             junctions with the A49 East of Shrewsbury and the A5064, minor delays are possible due to
-            roadworks . Expect disruption until 6:00 am on 23 April 2013.</value>
+            roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -10663,7 +10663,7 @@
           <comment>
             <value lang="en">On the A5 from Telford West towards The Welsh Border at the junction
             with the A5064, minor delays are possible due to roadworks . Expect disruption until 6:00
-            am on 23 April 2013.</value>
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -11328,6 +11328,133 @@
                 <ilc>
                   <descriptor>
                     <value lang="en">A423</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID573443768">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-573443769">
+        <situationRecordCreationReference>P-13-0326-0193</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-03-26T11:48:00Z</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-03-26T11:48:00Z</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-03-26T11:48:00Z</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-02T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-06-12T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-02T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-06-12T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>50.0</capacityRemaining>
+            <numberOfLanesRestricted>1</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M57 northbound entry slip at junction J3 , minor delays are
+            possible due to roadworks closing one lane. Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>northBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>53.433235</latitude>
+                  <longitude>-2.855977</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M57 J3 northbound access</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.433235</latitude>
+                  <longitude>-2.855977</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J3</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M57</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M57</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.433235</latitude>
+                  <longitude>-2.855977</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J3</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M57</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A526</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
@@ -13818,8 +13945,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A31 eastbound between the junctions with the A35 and the A350,
-            minor delays are possible due to roadworks . Expect disruption until 5:30 am on 23 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -13946,8 +14072,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A31 westbound between the junctions with the A350 and the A35,
-            minor delays are possible due to roadworks . Expect disruption until 5:30 am on 23 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14075,7 +14200,7 @@
           <comment>
             <value lang="en">On the A27 eastbound between the junctions with the A259 Havant and the
             A259 Chichester West , minor delays are possible due to roadworks closing one lane.
-            Expect disruption until 5:30 am on 23 April 2013.</value>
+            Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14204,7 +14329,7 @@
           <comment>
             <value lang="en">On the A27 westbound between the junctions with the A259 Chichester West
             and the A259 Havant, minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 5:30 am on 23 April 2013.</value>
+            disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14333,7 +14458,7 @@
           <comment>
             <value lang="en">On the A3 northbound between the junctions with the A325 and the A283
             Godalming, minor delays are possible due to roadworks closing one lane. Expect disruption
-            until 5:30 am on 23 April 2013.</value>
+            until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14462,7 +14587,7 @@
           <comment>
             <value lang="en">On the A3 southbound between the junctions with the A283 Godalming North
             and the A325, minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 5:30 am on 23 April 2013.</value>
+            disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14591,7 +14716,7 @@
           <comment>
             <value lang="en">On the A404 northbound between the junctions with the A308 and the
             A4155, minor delays are possible due to roadworks closing one lane. Expect disruption
-            until 5:30 am on 23 April 2013.</value>
+            until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14719,7 +14844,7 @@
           <comment>
             <value lang="en">On the A404 southbound between the junctions with the A4155 and the
             A308, minor delays are possible due to roadworks closing one lane. Expect disruption
-            until 5:30 am on 23 April 2013.</value>
+            until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14847,7 +14972,7 @@
           <comment>
             <value lang="en">On the M271 northbound between junction J1 and the junction with the
             M27, minor delays are possible due to roadworks closing one lane. Expect disruption until
-            6:00 am on 23 April 2013.</value>
+            6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -14974,8 +15099,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M271 southbound between the M27 and junction J1, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -15102,8 +15226,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M27 eastbound between junctions J8 and J9, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 5:30 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -15230,8 +15353,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M27 westbound between junctions J9 and J8, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 5:30 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -15359,7 +15481,7 @@
           <comment>
             <value lang="en">On the A2 from Dover towards Faversham between the junctions with the
             A256 Whitfield West and the A260, minor delays are possible due to roadworks . Expect
-            disruption until 6:00 am on 23 April 2013.</value>
+            disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -15487,7 +15609,7 @@
           <comment>
             <value lang="en">On the A2 from Faversham towards Dover between the junctions with the
             A260 and the A256 Whitfield West , minor delays are possible due to roadworks . Expect
-            disruption until 6:00 am on 23 April 2013.</value>
+            disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -16122,7 +16244,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">At the junction of the A61 and the M1 J36 , minor delays are possible
-            due to roadworks . Expect disruption until 6:00 am on 23 April 2013.</value>
+            due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -16431,7 +16553,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">At the junction of the A61 and the M1 J36 , minor delays are possible
-            due to roadworks . Expect disruption until 6:00 am on 23 April 2013.</value>
+            due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -18918,7 +19040,7 @@
           <comment>
             <value lang="en">On the A50 westbound between the junctions with the A522 and the A521
             Blythe Bridge East , minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 5:00 am on 23 April 2013.</value>
+            disruption until 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -20410,7 +20532,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The A1 northbound is closed between the junctions with the A1167 and the
-            A698, due to roadworks. Road expected to re-open from 10:00 am on 23 April 2013.</value>
+            A698, due to roadworks. Road expected to re-open from 10:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -22518,7 +22640,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M6 northbound exit slip at junction J9 is closed , due to roadworks.
-            Road expected to re-open from 6:00 am on 23 April 2013.</value>
+            Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -27948,8 +28070,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M62 westbound between junctions J26 and J25, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00 am on
-            23 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -29605,8 +29727,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A64 northbound between the junctions with the A169 and the A1039,
-            minor delays are possible due to roadworks . Expect disruption until 11:59 pm on 23 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -29730,8 +29851,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A64 southbound between the junctions with the A1039 and the A169,
-            minor delays are possible due to roadworks . Expect disruption until 11:59 pm on 23 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -29860,7 +29980,7 @@
           <comment>
             <value lang="en">On the A30 from Penzance towards Honiton between the junctions with the
             A386 and the A382, minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 4:00 am on 23 April 2013.</value>
+            disruption until 4:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -30371,7 +30491,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A31 westbound entry slip from the A338 , minor delays are
-            possible due to roadworks . Expect disruption until 6:00 am on 23 April 2013.</value>
+            possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -30627,7 +30747,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M53 southbound exit slip at junction J2 is closed , due to
-            roadworks. Road expected to re-open from 5:00 am on 23 April 2013.</value>
+            roadworks. Road expected to re-open from 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -31769,8 +31889,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M6 northbound between junctions J38 and J39, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -31897,8 +32016,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M6 southbound between junctions J39 and J38, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -34158,8 +34276,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The A38 from Bodmin towards Exeter is closed between the junctions with
-            the A374 Plymouth and the A3121, due to roadworks. Road expected to re-open from 6:00 am
-            on 23 April 2013.</value>
+            the A374 Plymouth and the A3121, due to roadworks. Road expected to re-open from 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -34286,8 +34404,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The A38 from Exeter towards Bodmin is closed between the junctions with
-            the A3121 and the A374 Plymouth, due to roadworks. Road expected to re-open from 6:00 am
-            on 23 April 2013.</value>
+            the A3121 and the A374 Plymouth, due to roadworks. Road expected to re-open from 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -34911,7 +35029,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M4 eastbound is closed between junctions J3 and J1, due to
-            roadworks. Road expected to re-open from 5:00 am on 23 April 2013.</value>
+            roadworks. Road expected to re-open from 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -35034,8 +35152,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 northbound between junctions J5 and J4A, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 5:30 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -35158,8 +35275,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 southbound between junctions J4A and J5, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30 am on
-            23 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -35357,6 +35474,260 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
+    <situation id="GUID576611515">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576611516">
+        <situationRecordCreationReference>P-13-0415-0041</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-15T02:12:24+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T02:12:24+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-15T02:12:24+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-28T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-28T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A64 northbound between the junctions with the A1039 and the A170,
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>northBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.24578</latitude>
+                  <longitude>-0.415564</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A64 northbound between Filey and B1261</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.2461</latitude>
+                  <longitude>-0.415094</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A170</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.200966</latitude>
+                  <longitude>-0.431996</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID576611525">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576611526">
+        <situationRecordCreationReference>P-13-0415-0042</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-15T02:12:35+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T02:12:35+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-15T02:12:35+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-28T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-28T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>1</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A64 southbound between the junctions with the A171 and the A1039,
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.242867</latitude>
+                  <longitude>-0.415154</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A64 southbound between B1261 and A170</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.20099</latitude>
+                  <longitude>-0.431566</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.2464</latitude>
+                  <longitude>-0.414947</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A171</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
     <situation id="GUID576611547">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -35482,6 +35853,514 @@
           <subjectTypeOfWorks>crashBarrier</subjectTypeOfWorks>
         </subjectTypeOfWorks>
         <roadMaintenanceType>repairWork</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID576611561">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576611562">
+        <situationRecordCreationReference>P-13-0415-0044</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-15T02:13:33+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T02:13:33+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-15T02:13:33+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-28T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-28T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>1</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A64 northbound between the junctions with the A1039 and the A170,
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>northBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.210438</latitude>
+                  <longitude>-0.435962</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A64 northbound between A1039 and B1261</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.2461</latitude>
+                  <longitude>-0.415094</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A170</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.200966</latitude>
+                  <longitude>-0.431996</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID576611574">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576611575">
+        <situationRecordCreationReference>P-13-0415-0045</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-15T02:13:45+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T02:13:45+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-15T02:13:45+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-28T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-28T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>1</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A64 southbound between the junctions with the A171 and the A1039,
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.210445</latitude>
+                  <longitude>-0.435885</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A64 southbound between A170 and A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.20099</latitude>
+                  <longitude>-0.431566</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.2464</latitude>
+                  <longitude>-0.414947</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A171</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID576611623">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576611624">
+        <situationRecordCreationReference>P-13-0415-0046</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-15T02:14:10+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T02:14:10+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-15T02:14:10+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-28T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-28T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>1</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A64 northbound between the junctions with the A169 and the A1039,
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>northBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.197544</latitude>
+                  <longitude>-0.439775</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A64 northbound between B1249 and A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.20084</latitude>
+                  <longitude>-0.432093</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.149723</latitude>
+                  <longitude>-0.771045</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A169</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID576611636">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576611637">
+        <situationRecordCreationReference>P-13-0415-0047</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-15T02:14:21+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T02:14:21+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-15T02:14:21+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-28T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-28T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>1</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A64 southbound between the junctions with the A1039 and the A169
+            , minor delays are possible due to roadworks . Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.198376</latitude>
+                  <longitude>-0.43749</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A64 southbound between A1039 and B1249</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.14948</latitude>
+                  <longitude>-0.77018</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A169</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.20061</latitude>
+                  <longitude>-0.43178</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A64</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1039</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
     <situation id="GUID576611689">
@@ -35792,7 +36671,7 @@
           <comment>
             <value lang="en">On the A38 from Bodmin towards Exeter between the junctions with the
             A374 Plymouth and the A3121, minor delays are possible due to roadworks closing one lane.
-            Expect disruption until 6:00 am on 23 April 2013.</value>
+            Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -41514,6 +42393,133 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
+    <situation id="GUID576648679">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576648681">
+        <situationRecordCreationReference>P-13-0415-0176</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-15T08:24:04+01:00</situationRecordCreationTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T08:24:33+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-15T08:24:33+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-09-30T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-09-30T23:59:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>23:59:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>3</numberOfOperationalLanes>
+            <originalNumberOfLanes>3</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>600.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M1 northbound between junctions J32 and J33, there are currently
+            delays of 10 mins due to roadworks . Expect disruption until 11:59 pm.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>northBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>53.398605</latitude>
+                  <longitude>-1.321205</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M1 northbound between J32 and J33</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.39867</latitude>
+                  <longitude>-1.343553</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J33</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A630</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.39765</latitude>
+                  <longitude>-1.298887</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J32</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M18</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
     <situation id="GUID576649259">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -41690,8 +42696,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M1 northbound between junctions J33 and J34, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -41942,8 +42947,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M1 northbound between junctions J34 and J36, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42070,7 +43074,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M5 northbound is closed between junctions J17 and J15, due to
-            roadworks. Road expected to re-open from 6:00 am on 23 April 2013.</value>
+            roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -43086,7 +44090,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M5 southbound entry slip at junction J15 is closed , due to
-            roadworks. Road expected to re-open from 6:00 am on 23 April 2013.</value>
+            roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -45498,7 +46502,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The A12 from The M25 towards Ipswich entry slip from the A130 is closed
-            , due to roadworks. Road expected to re-open from 6:00 am on 23 April 2013.</value>
+            , due to roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -46207,6 +47211,130 @@
           <subjectTypeOfWorks>crashBarrier</subjectTypeOfWorks>
         </subjectTypeOfWorks>
         <roadMaintenanceType>repairWork</roadMaintenanceType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID576834207">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576834209">
+        <situationRecordCreationReference>P-13-0416-0112</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-16T10:16:53+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-16T10:16:53+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-16T10:16:53+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-23T00:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-04-24T23:59:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-23T00:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-24T23:59:00+01:00</endOfPeriod>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
+            <originalNumberOfLanes>1</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A590 westbound between the junctions with the A592 and the A5087,
+            minor delays are possible due to roadworks . Expect disruption until 11:59 pm on 24 April
+            2013.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>westBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.24974</latitude>
+                  <longitude>-3.013956</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A590 westbound between A592 and A5092</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.19534</latitude>
+                  <longitude>-3.091837</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A590</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A5087</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.26688</latitude>
+                  <longitude>-2.967239</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A590</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A592</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
     <situation id="GUID576835776">
@@ -47561,6 +48689,133 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
+    <situation id="GUID576879342">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576879343">
+        <situationRecordCreationReference>P-13-0416-0272</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-16T17:36:11+01:00</situationRecordCreationTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-16T17:37:00+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-16T17:37:00+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T00:01:00+01:00</overallStartTime>
+            <overallEndTime>2013-09-30T06:00:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T00:01:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-09-30T06:00:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>00:01:00</startTimeOfPeriod>
+                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>3</numberOfOperationalLanes>
+            <originalNumberOfLanes>3</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>600.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M1 southbound between junctions J34 and J33, there are currently
+            delays of 10 mins due to roadworks . Expect disruption until 6:00 am.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>53.39994</latitude>
+                  <longitude>-1.3782</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M1 southbound between J34 and J33</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.39765</latitude>
+                  <longitude>-1.354908</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J33</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A630</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>53.409466</latitude>
+                  <longitude>-1.396805</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J34</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A6109</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
     <situation id="GUID576879570">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -48623,8 +49878,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A64 southbound between the junctions with the A166 and the A19,
-            minor delays are possible due to roadworks . Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -48751,8 +50005,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A64 northbound between the junctions with the A19 and the A1079 ,
-            minor delays are possible due to roadworks . Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -51164,7 +52417,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M1 northbound exit slip at junction J13 is closed , due to
-            roadworks. Road expected to re-open from 6:00 am on 23 April 2013.</value>
+            roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -52298,8 +53551,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 northbound between junctions J8 and J7, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -52426,8 +53678,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 southbound between junctions J7 and J8, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00 am on
-            23 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -53192,8 +54444,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M1 northbound between junctions J39 and J40, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -54080,8 +55331,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A36 northbound between the junctions with the A303 and the A350
-            South, minor delays are possible due to roadworks . Expect disruption until 5:00 pm on 23
-            April 2013.</value>
+            South, minor delays are possible due to roadworks . Expect disruption until 5:00
+            pm.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -54204,8 +55455,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A36 southbound between the junctions with the A350 South and the
-            A303, minor delays are possible due to roadworks . Expect disruption until 5:00 pm on 23
-            April 2013.</value>
+            A303, minor delays are possible due to roadworks . Expect disruption until 5:00
+            pm.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -54328,8 +55579,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The A43 northbound is closed between the junctions with the A422
-            Brackley (East) and the A5, due to roadworks. Road expected to re-open from 5:00 am on 23
-            April 2013.</value>
+            Brackley (East) and the A5, due to roadworks. Road expected to re-open from 5:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -54838,8 +56089,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M56 eastbound exit slip at junction J5 for Manchester Airport is
-            closed , due to roadworks. Road expected to re-open from 5:00 am on 23 April
-            2013.</value>
+            closed , due to roadworks. Road expected to re-open from 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -55975,8 +57225,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M18 southbound between junctions J2 and J1, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -56099,8 +57348,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M18 northbound between junctions J1 and J2, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -56907,8 +58155,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M1 northbound between junctions J40 and J41, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -60458,7 +61705,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">The M62 eastbound entry slip at junction J25 is closed , due to
-            roadworks. Road expected to re-open from 6:00 am on 23 April 2013.</value>
+            roadworks. Road expected to re-open from 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -62482,8 +63729,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A66 eastbound between the junctions with the A6 and the A685,
-            minor delays are possible due to roadworks . Expect disruption until 6:00 am on 23 April
-            2013.</value>
+            minor delays are possible due to roadworks . Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -62809,134 +64055,6 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
-    <situation id="GUID577837579">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-577837580">
-        <situationRecordCreationReference>P-13-0422-0207</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-22T16:41:11+01:00</situationRecordCreationTime>
-        <situationRecordVersion>2</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T16:41:21+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-22T16:41:21+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">SRW</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-22T22:00:00+01:00</overallStartTime>
-            <overallEndTime>2013-04-23T00:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-22T22:00:00+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-23T00:00:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>freeFlow</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>50.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>1</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>0.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A30 from Honiton towards Penzance between the junctions with the
-            A391 and the A39, minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 12:00 am on 23 April 2013.</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>westBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>50.417362</latitude>
-                  <longitude>-4.870547</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A30 westbound between A391 near Bodmin (west) and A39 near
-                    Newquay (east)</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>50.3957</latitude>
-                  <longitude>-4.9183</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A30</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A39</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>50.4319</latitude>
-                  <longitude>-4.77791</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A30</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A391</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
-        <subjectTypeOfWorks>
-          <subjectTypeOfWorks>crashBarrier</subjectTypeOfWorks>
-        </subjectTypeOfWorks>
-        <roadMaintenanceType>repairWork</roadMaintenanceType>
-      </situationRecord>
-    </situation>
     <situation id="GUID577838539">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -63240,7 +64358,7 @@
           <comment>
             <value lang="en">On the A1(M) southbound between junctions J47 and J46, there are
             currently delays of 10 mins due to roadworks closing two lanes. Expect disruption until
-            6:00 am on 23 April 2013.</value>
+            6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -66449,8 +67567,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 northbound between junctions J6 and J5, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30 am on
-            23 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
