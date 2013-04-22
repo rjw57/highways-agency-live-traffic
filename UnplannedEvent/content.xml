@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-22T13:20:02+01:00</publicationTime>
+    <publicationTime>2013-04-22T13:30:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -395,10 +395,10 @@
       <situationRecord xsi:type="Accident" id="GUID1-577804860">
         <situationRecordCreationReference>U-13-0422-0075</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-22T11:50:24+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T13:11:24+01:00</situationRecordVersionTime>
+        <situationRecordVersion>6</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-22T13:27:15+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T13:11:24+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-22T13:27:15+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -643,13 +643,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-577808648">
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577808648">
         <situationRecordCreationReference>U-13-0422-0085</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-22T12:27:10+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T13:12:40+01:00</situationRecordVersionTime>
+        <situationRecordVersion>5</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-22T13:22:42+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T13:12:40+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-22T13:22:42+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -661,32 +661,32 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-22T12:27:10+01:00</overallStartTime>
-            <overallEndTime>2013-04-22T14:00:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-22T14:30:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-22T12:27:10+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-22T14:00:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-22T14:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
+            <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
             <originalNumberOfLanes>1</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1200.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A66 westbound between the junctions with the A1 and the A67,
-            there are currently delays of 20 mins due to an accident closing one lane. Normal traffic
-            conditions expected from 2:00 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/415343,508809 Link to Disclaimer:
+            there are currently delays of 15 mins caused by congestion due to an earlier accident.
+            Normal traffic conditions expected from 2:30 pm. Link to Multimap: Unavailable Link to
+            Streetmap: http://streetmap.co.uk/grid/415343,508809 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
@@ -758,7 +758,7 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <accidentType>accident</accidentType>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
       </situationRecord>
     </situation>
     <situation id="GUID577808698">
@@ -768,13 +768,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-577808699">
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577808699">
         <situationRecordCreationReference>U-13-0422-0086</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-22T12:28:03+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T13:08:04+01:00</situationRecordVersionTime>
+        <situationRecordVersion>6</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-22T13:28:01+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T13:08:04+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-22T13:28:01+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -786,32 +786,32 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-22T12:28:03+01:00</overallStartTime>
-            <overallEndTime>2013-04-22T14:00:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-22T14:30:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-22T12:28:03+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-22T14:00:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-22T14:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
+            <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
             <originalNumberOfLanes>1</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1200.0</delayTimeValue>
+            <delayTimeValue>600.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A66 eastbound between the junctions with the A67 and the A1,
-            there are currently delays of 20 mins due to an accident closing one lane. Normal traffic
-            conditions expected from 2:00 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/415282,508852 Link to Disclaimer:
+            there are currently delays of 10 mins caused by congestion due to an earlier accident.
+            Normal traffic conditions expected from 2:30 pm. Link to Multimap: Unavailable Link to
+            Streetmap: http://streetmap.co.uk/grid/415282,508852 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
@@ -883,7 +883,7 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <accidentType>accident</accidentType>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
       </situationRecord>
     </situation>
     <situation id="GUID577810411">
@@ -896,10 +896,10 @@
       <situationRecord xsi:type="VehicleObstruction" id="GUID1-577810412">
         <situationRecordCreationReference>U-13-0422-0087</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-22T12:40:29+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T12:41:01+01:00</situationRecordVersionTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-22T13:26:13+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T12:41:01+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-22T13:26:13+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -911,10 +911,10 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-22T12:40:30+01:00</overallStartTime>
-            <overallEndTime>2013-04-22T13:45:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-22T14:30:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-22T12:40:30+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-22T13:45:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-22T14:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -935,7 +935,7 @@
           <comment>
             <value lang="en">On the A19 southbound between the junctions with the A1130 and the A174,
             minor delays are possible due to a broken down vehicle closing one lane. Normal traffic
-            conditions expected from 1:45 pm. Link to Multimap: Unavailable Link to Streetmap:
+            conditions expected from 2:30 pm. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/446754,516339 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
