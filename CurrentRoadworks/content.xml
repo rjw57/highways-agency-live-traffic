@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-22T17:10:02+01:00</publicationTime>
+    <publicationTime>2013-04-22T18:10:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -2700,262 +2700,6 @@
           </locationContainedInGroup>
         </groupOfLocations>
         <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
-        <roadMaintenanceType>roadworks</roadMaintenanceType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID560259657">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-560259658">
-        <situationRecordCreationReference>P-12-1224-0055</situationRecordCreationReference>
-        <situationRecordCreationTime>2012-12-24T12:44:14Z</situationRecordCreationTime>
-        <situationRecordVersion>67</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-18T11:30:23+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-18T11:30:23+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">FNIR</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-01-09T08:00:00Z</overallStartTime>
-            <overallEndTime>2015-08-31T18:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-01-09T08:00:00Z</startOfPeriod>
-              <endOfPeriod>2015-08-31T18:00:00+01:00</endOfPeriod>
-              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
-                <startTimeOfPeriod>08:00:00</startTimeOfPeriod>
-                <endTimeOfPeriod>18:00:00</endTimeOfPeriod>
-              </recurringTimePeriodOfDay>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>100.0</capacityRemaining>
-            <numberOfLanesRestricted>0</numberOfLanesRestricted>
-            <numberOfOperationalLanes>1</numberOfOperationalLanes>
-            <originalNumberOfLanes>1</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A453 northbound between the junctions with the M1 and the A52,
-            there are currently delays of 10 mins due to roadworks . Expect disruption until 6:00
-            pm.</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>northBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.868885</latitude>
-                  <longitude>-1.237924</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A453 northbound between M1/A50/A6 and A52</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.90437</latitude>
-                  <longitude>-1.190959</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A453</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A52</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.844772</latitude>
-                  <longitude>-1.294216</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A453</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M1</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
-        <roadMaintenanceType>roadworks</roadMaintenanceType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID560259659">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-560259660">
-        <situationRecordCreationReference>P-12-1224-0056</situationRecordCreationReference>
-        <situationRecordCreationTime>2012-12-24T12:44:21Z</situationRecordCreationTime>
-        <situationRecordVersion>36</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-18T11:31:12+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-18T11:31:12+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">FNIR</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-01-09T08:00:00Z</overallStartTime>
-            <overallEndTime>2015-08-31T18:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-01-09T08:00:00Z</startOfPeriod>
-              <endOfPeriod>2015-08-31T18:00:00+01:00</endOfPeriod>
-              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
-                <startTimeOfPeriod>08:00:00</startTimeOfPeriod>
-                <endTimeOfPeriod>18:00:00</endTimeOfPeriod>
-              </recurringTimePeriodOfDay>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>100.0</capacityRemaining>
-            <numberOfLanesRestricted>0</numberOfLanesRestricted>
-            <numberOfOperationalLanes>1</numberOfOperationalLanes>
-            <originalNumberOfLanes>1</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A453 southbound between the junctions with the A52 and the M1,
-            there are currently delays of 10 mins due to roadworks . Expect disruption until 6:00
-            pm.</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>southBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.86885</latitude>
-                  <longitude>-1.237895</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A453 southbound between A52 and M1/A50/A6</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.844303</latitude>
-                  <longitude>-1.293912</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A453</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M1</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.904182</latitude>
-                  <longitude>-1.190769</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A453</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A52</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
@@ -10696,6 +10440,133 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
+    <situation id="GUID575505316">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-575505317">
+        <situationRecordCreationReference>P-13-0408-0017</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-08T09:03:01+01:00</situationRecordCreationTime>
+        <situationRecordVersion>8</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-16T16:19:45+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-16T16:19:45+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">SRW</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-22T12:30:00+01:00</overallStartTime>
+            <overallEndTime>2013-08-02T16:00:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-22T12:30:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-08-02T16:00:00+01:00</endOfPeriod>
+              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
+                <startTimeOfPeriod>18:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
+              </recurringTimePeriodOfDay>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>0</numberOfLanesRestricted>
+            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>0.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M5 southbound exit slip at junction J21 , minor delays are
+            possible due to roadworks . Expect disruption until 6:00 am on 23 April 2013.</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>51.36287</latitude>
+                  <longitude>-2.89092</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M5 J21 southbound exit</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>51.36287</latitude>
+                  <longitude>-2.89092</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J21</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M5</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A370</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>51.36287</latitude>
+                  <longitude>-2.89092</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J21</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M5</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M5</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <effectOnRoadLayout>roadLayoutUnchanged</effectOnRoadLayout>
+        <roadMaintenanceType>roadworks</roadMaintenanceType>
+      </situationRecord>
+    </situation>
     <situation id="GUID575509707">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -11202,20 +11073,20 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
-    <situation id="GUID575518157">
+    <situation id="GUID575534234">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
         <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-575518158">
-        <situationRecordCreationReference>P-13-0408-0189</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-08T10:56:36+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-15T15:54:40+01:00</situationRecordVersionTime>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-575534236">
+        <situationRecordCreationReference>P-13-0408-0228</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-08T13:21:31+01:00</situationRecordCreationTime>
+        <situationRecordVersion>4</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T19:36:58+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-15T15:54:40+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-15T19:36:58+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -11226,15 +11097,11 @@
         <validity>
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
-            <overallStartTime>2013-04-22T06:00:00+01:00</overallStartTime>
-            <overallEndTime>2013-05-12T18:00:00+01:00</overallEndTime>
+            <overallStartTime>2013-04-22T18:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-05-12T06:00:00+01:00</overallEndTime>
             <validPeriod>
-              <startOfPeriod>2013-04-22T06:00:00+01:00</startOfPeriod>
-              <endOfPeriod>2013-05-12T18:00:00+01:00</endOfPeriod>
-              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
-                <startTimeOfPeriod>06:00:00</startTimeOfPeriod>
-                <endTimeOfPeriod>18:00:00</endTimeOfPeriod>
-              </recurringTimePeriodOfDay>
+              <startOfPeriod>2013-04-22T18:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-05-12T06:00:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -11254,7 +11121,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 northbound entry slip at junction J21 , minor delays are
-            possible due to roadworks . Expect disruption until 6:00 pm.</value>
+            possible due to roadworks . Expect disruption until 6:00 am on 12 May 2013.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -11329,20 +11196,20 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
-    <situation id="GUID575518259">
+    <situation id="GUID575534344">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
         <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-575518260">
-        <situationRecordCreationReference>P-13-0408-0190</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-08T10:57:42+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-15T15:57:13+01:00</situationRecordVersionTime>
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-575534345">
+        <situationRecordCreationReference>P-13-0408-0229</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-08T13:22:06+01:00</situationRecordCreationTime>
+        <situationRecordVersion>3</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-15T16:01:49+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-15T15:57:13+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-15T16:01:49+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -11353,20 +11220,20 @@
         <validity>
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
-            <overallStartTime>2013-04-22T06:00:00+01:00</overallStartTime>
-            <overallEndTime>2013-12-13T18:00:00Z</overallEndTime>
+            <overallStartTime>2013-04-22T18:00:00+01:00</overallStartTime>
+            <overallEndTime>2013-12-13T06:00:00Z</overallEndTime>
             <validPeriod>
-              <startOfPeriod>2013-04-22T06:00:00+01:00</startOfPeriod>
-              <endOfPeriod>2013-12-13T18:00:00Z</endOfPeriod>
+              <startOfPeriod>2013-04-22T18:00:00+01:00</startOfPeriod>
+              <endOfPeriod>2013-12-13T06:00:00Z</endOfPeriod>
               <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
-                <startTimeOfPeriod>06:00:00</startTimeOfPeriod>
-                <endTimeOfPeriod>18:00:00</endTimeOfPeriod>
+                <startTimeOfPeriod>18:00:00</startTimeOfPeriod>
+                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
               </recurringTimePeriodOfDay>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>0</numberOfLanesRestricted>
@@ -11375,13 +11242,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>0.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the M5 northbound exit slip at junction J21 , there are currently
-            delays of 10 mins due to roadworks . Expect disruption until 6:00 pm.</value>
+            <value lang="en">On the M5 northbound exit slip at junction J21 , minor delays are
+            possible due to roadworks . Expect disruption until 6:00 am on 23 April 2013.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
