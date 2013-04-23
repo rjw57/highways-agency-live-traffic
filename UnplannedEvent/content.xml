@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-23T10:30:02+01:00</publicationTime>
+    <publicationTime>2013-04-23T10:40:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -151,10 +151,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577945374">
         <situationRecordCreationReference>U-13-0423-0029</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-23T08:15:53+01:00</situationRecordCreationTime>
-        <situationRecordVersion>13</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-23T10:22:59+01:00</situationRecordVersionTime>
+        <situationRecordVersion>14</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-23T10:36:38+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-23T10:22:59+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-23T10:36:38+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -183,13 +183,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M6 northbound between junctions J2 and J3A, there are currently
-            delays of 10 mins caused by congestion due to an earlier accident. Normal traffic
+            delays of 15 mins caused by congestion due to an earlier accident. Normal traffic
             conditions expected from 11:00 am. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/436599,283588 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
@@ -635,131 +635,6 @@
         <abnormalTrafficType>slowTraffic</abnormalTrafficType>
       </situationRecord>
     </situation>
-    <situation id="GUID577954360">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577954361">
-        <situationRecordCreationReference>U-13-0423-0103</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-23T09:25:32+01:00</situationRecordCreationTime>
-        <situationRecordVersion>5</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-23T10:15:27+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-23T10:15:27+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from ERCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-23T09:25:32+01:00</overallStartTime>
-            <overallEndTime>2013-04-23T11:30:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-23T09:25:32+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-23T11:30:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>100.0</capacityRemaining>
-            <numberOfLanesRestricted>3</numberOfLanesRestricted>
-            <numberOfOperationalLanes>3</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M25 anti-clockwise between junctions J25 and J24, there are
-            currently delays of 10 mins caused by congestion due to an earlier broken down vehicle.
-            Normal traffic conditions expected from 11:30 am. Link to Multimap: Unavailable Link to
-            Streetmap: http://streetmap.co.uk/grid/530725,200848 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>anticlockwise</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>51.691177</latitude>
-                  <longitude>-0.110127</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M25 anti-clockwise between J25 and J24</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.687767</latitude>
-                  <longitude>-0.16448</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J24</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M25</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A111</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.68257</latitude>
-                  <longitude>-0.056151</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J25</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M25</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A10</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
-      </situationRecord>
-    </situation>
     <situation id="GUID577954767">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -770,10 +645,10 @@
       <situationRecord xsi:type="Accident" id="GUID1-577954768">
         <situationRecordCreationReference>U-13-0423-0106</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-23T09:28:03+01:00</situationRecordCreationTime>
-        <situationRecordVersion>8</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-23T10:26:33+01:00</situationRecordVersionTime>
+        <situationRecordVersion>9</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-23T10:31:33+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-23T10:26:33+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-23T10:31:33+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -793,7 +668,7 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>50.0</capacityRemaining>
             <numberOfLanesRestricted>1</numberOfLanesRestricted>
@@ -802,13 +677,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1200.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A19 southbound between the junctions with the A689 and the A1027,
-            there are currently delays of 20 mins caused by congestion due to a multi-vehicle
+            there are currently delays of 15 mins caused by congestion due to a multi-vehicle
             accident closing one lane between the junctions with the A1027 and the A139. Normal
             traffic conditions expected from 11:15 am. Link to Multimap: Unavailable Link to
             Streetmap: http://streetmap.co.uk/grid/445219,522016 Link to Disclaimer:
@@ -888,10 +763,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-577954768">
         <situationRecordCreationReference>U-13-0423-0106</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-23T09:28:03+01:00</situationRecordCreationTime>
-        <situationRecordVersion>8</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-23T10:26:33+01:00</situationRecordVersionTime>
+        <situationRecordVersion>9</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-23T10:31:33+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-23T10:26:33+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-23T10:31:33+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -911,7 +786,7 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>50.0</capacityRemaining>
             <numberOfLanesRestricted>1</numberOfLanesRestricted>
@@ -920,13 +795,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1200.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A19 southbound between the junctions with the A689 and the A1027,
-            there are currently delays of 20 mins caused by congestion due to a multi-vehicle
+            there are currently delays of 15 mins caused by congestion due to a multi-vehicle
             accident closing one lane between the junctions with the A1027 and the A139. Normal
             traffic conditions expected from 11:15 am. Link to Multimap: Unavailable Link to
             Streetmap: http://streetmap.co.uk/grid/445219,522016 Link to Disclaimer:
@@ -1014,10 +889,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID1-577954914">
         <situationRecordCreationReference>U-13-0423-0108</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-23T09:28:53+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-23T09:56:55+01:00</situationRecordVersionTime>
+        <situationRecordVersion>4</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-23T10:36:41+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-23T09:56:55+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-23T10:36:41+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -1037,7 +912,7 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>3</numberOfLanesRestricted>
@@ -1046,13 +921,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1200.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A14 eastbound between junctions J29 Bar Hill and J31 M11
-            Junction, there are currently delays of 20 mins due to heavy traffic . Normal traffic
+            Junction, there are currently delays of 15 mins due to heavy traffic . Normal traffic
             conditions expected from 11:00 am. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/539470,263153 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
@@ -1514,10 +1389,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID1-577962602">
         <situationRecordCreationReference>U-13-0423-0150</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-23T10:19:17+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-23T10:19:35+01:00</situationRecordVersionTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-23T10:37:10+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-23T10:19:35+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-23T10:37:10+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -1546,13 +1421,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A27 eastbound between the junctions with the A24 South and the
-            A2025, there are currently delays of 10 mins due to heavy traffic . Normal traffic
+            A2025, there are currently delays of 15 mins due to heavy traffic . Normal traffic
             conditions expected from 11:30 am. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/516000,105395 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
@@ -1869,6 +1744,131 @@
                 <ilc>
                   <descriptor>
                     <value lang="en">A3094</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID577964131">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-577964132">
+        <situationRecordCreationReference>U-13-0423-0153</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-23T10:33:02+01:00</situationRecordCreationTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-23T10:36:26+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-23T10:36:26+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">TCC System</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-23T10:33:04+01:00</overallStartTime>
+            <overallEndTime>2013-04-23T11:45:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-23T10:33:04+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-23T11:45:00+01:00</endOfPeriod>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>3</numberOfLanesRestricted>
+            <numberOfOperationalLanes>3</numberOfOperationalLanes>
+            <originalNumberOfLanes>3</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>600.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M6 southbound between junctions J6 and J5, there are currently
+            delays of 10 mins due to heavy traffic . Normal traffic conditions expected from 11:45
+            am. Link to Multimap: Unavailable Link to Streetmap:
+            http://streetmap.co.uk/grid/411964,289857 Link to Disclaimer:
+            http://www.highways.gov.uk/aboutus/2301.aspx</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>52.506493</latitude>
+                  <longitude>-1.825158</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M6 southbound between J6 and J5</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>52.509678</latitude>
+                  <longitude>-1.786556</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J5</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M6</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A452</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>52.51465</latitude>
+                  <longitude>-1.867639</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J6</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M6</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A38</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
