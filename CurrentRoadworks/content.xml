@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-23T05:40:02+01:00</publicationTime>
+    <publicationTime>2013-04-23T05:50:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -17949,133 +17949,6 @@
                 <ilc>
                   <descriptor>
                     <value lang="en">A329(M)</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
-        <roadMaintenanceType>roadworks</roadMaintenanceType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID575143016">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-575143017">
-        <situationRecordCreationReference>P-13-0405-0404</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-05T21:24:21+01:00</situationRecordCreationTime>
-        <situationRecordVersion>10</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T20:44:45+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-22T20:44:45+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">SRW</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-20T20:00:00+01:00</overallStartTime>
-            <overallEndTime>2013-04-26T06:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-20T20:00:00+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-26T06:00:00+01:00</endOfPeriod>
-              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
-                <startTimeOfPeriod>20:00:00</startTimeOfPeriod>
-                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
-              </recurringTimePeriodOfDay>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>impossible</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
-            <numberOfLanesRestricted>3</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">The M62 eastbound is closed between junctions J25 and J26, due to
-            roadworks. Road expected to re-open from 6:00 am.</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>eastBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>53.704098</latitude>
-                  <longitude>-1.743267</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M62 eastbound between J25 and J26</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.730347</latitude>
-                  <longitude>-1.731846</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J26</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M62</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M606</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.69874</latitude>
-                  <longitude>-1.74698</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J25</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M62</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A644</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
