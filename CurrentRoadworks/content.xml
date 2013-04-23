@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-23T04:20:02+01:00</publicationTime>
+    <publicationTime>2013-04-23T04:30:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -48368,134 +48368,6 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
-    <situation id="GUID577013404">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-577013406">
-        <situationRecordCreationReference>P-13-0417-0147</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-17T13:01:46+01:00</situationRecordCreationTime>
-        <situationRecordVersion>2</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-17T13:02:00+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-17T13:02:00+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">SRW</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-22T22:00:00+01:00</overallStartTime>
-            <overallEndTime>2013-04-27T06:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-22T22:00:00+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-27T06:00:00+01:00</endOfPeriod>
-              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
-                <startTimeOfPeriod>22:00:00</startTimeOfPeriod>
-                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
-              </recurringTimePeriodOfDay>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>33.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>1</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M40 northbound between junctions J13 and J15, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00
-            am.</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>northBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.248596</latitude>
-                  <longitude>-1.569544</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M40 northbound between J13 and J14</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.25777</latitude>
-                  <longitude>-1.606654</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J15</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M40</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A46</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.238865</latitude>
-                  <longitude>-1.549254</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J13</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M40</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A452</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
-        <roadMaintenanceType>roadworks</roadMaintenanceType>
-      </situationRecord>
-    </situation>
     <situation id="GUID577019928">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -59369,10 +59241,10 @@
       <situationRecord xsi:type="MaintenanceWorks" id="GUID1-577817618">
         <situationRecordCreationReference>P-13-0422-0141</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-22T13:39:30+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T22:33:57+01:00</situationRecordVersionTime>
+        <situationRecordVersion>4</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-23T04:26:08+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T22:33:57+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-23T04:26:08+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -59410,8 +59282,8 @@
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">The M25 clockwise entry slip at junction J27 From M11 South is closed ,
-            due to roadworks. Road expected to re-open from 5:30 am.</value>
+            <value lang="en">The M25 clockwise entry slip at junction J21 is closed , due to
+            roadworks. Road expected to re-open from 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -59421,24 +59293,24 @@
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>51.679123</latitude>
-                  <longitude>0.129273</longitude>
+                  <latitude>51.71703</latitude>
+                  <longitude>-0.380458</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">link road from M11 J6 southbound to M25 J27 clockwise</value>
+                    <value lang="en">link road from M1 J6A southbound to M25 J21 clockwise</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
               </framedPoint>
               <to xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>51.679123</latitude>
-                  <longitude>0.129273</longitude>
+                  <latitude>51.71703</latitude>
+                  <longitude>-0.380458</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">J27</value>
+                    <value lang="en">J21</value>
                   </descriptor>
                   <tpegDescriptorType>junctionName</tpegDescriptorType>
                 </name>
@@ -59457,12 +59329,12 @@
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>51.679123</latitude>
-                  <longitude>0.129273</longitude>
+                  <latitude>51.71703</latitude>
+                  <longitude>-0.380458</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">J27</value>
+                    <value lang="en">J21</value>
                   </descriptor>
                   <tpegDescriptorType>junctionName</tpegDescriptorType>
                 </name>
@@ -59474,7 +59346,7 @@
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">M11</value>
+                    <value lang="en">M1</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
