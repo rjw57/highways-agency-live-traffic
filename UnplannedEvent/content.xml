@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-24T09:20:02+01:00</publicationTime>
+    <publicationTime>2013-04-24T09:30:02+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -269,131 +269,6 @@
           <subjectTypeOfWorks>crashBarrier</subjectTypeOfWorks>
         </subjectTypeOfWorks>
         <roadMaintenanceType>repairWork</roadMaintenanceType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID578106178">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-578106182">
-        <situationRecordCreationReference>U-13-0424-0009</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-24T07:34:09+01:00</situationRecordCreationTime>
-        <situationRecordVersion>5</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T08:51:32+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-24T08:51:32+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">TCC System</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T07:34:12+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T09:45:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T07:34:12+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T09:45:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>100.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A38 from Sutton Coldfield towards The M1 between the junctions
-            with the A61 Alfreton and the M1, there are currently delays of 10 mins due to heavy
-            traffic . Normal traffic conditions expected from 9:45 am. Link to Multimap: Unavailable
-            Link to Streetmap: http://streetmap.co.uk/grid/444768,355394 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>northBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>53.093903</latitude>
-                  <longitude>-1.332935</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A38 northbound between B600 and M1</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.100548</latitude>
-                  <longitude>-1.325394</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A38</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M1</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.089046</latitude>
-                  <longitude>-1.391227</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A38</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A61</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
       </situationRecord>
     </situation>
     <situation id="GUID578109101">
@@ -1396,10 +1271,10 @@
       <situationRecord xsi:type="VehicleObstruction" id="GUID1-578114262">
         <situationRecordCreationReference>U-13-0424-0038</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-24T08:45:14+01:00</situationRecordCreationTime>
-        <situationRecordVersion>6</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T09:18:05+01:00</situationRecordVersionTime>
+        <situationRecordVersion>7</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T09:26:45+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-24T09:18:05+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-24T09:26:45+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -1428,13 +1303,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>2400.0</delayTimeValue>
+            <delayTimeValue>1200.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A45 from M1 J15 towards The A14 between the junctions with the M1
-            and the A508 Northampton, there are currently delays of 40 mins due to a vehicle on fire
+            and the A508 Northampton, there are currently delays of 20 mins due to a vehicle on fire
             closing one lane. Normal traffic conditions expected from 10:30 am. Link to Multimap:
             Unavailable Link to Streetmap: http://streetmap.co.uk/grid/475798,255503 Link to
             Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
@@ -1511,131 +1386,6 @@
         <vehicleObstructionType>vehicleOnFire</vehicleObstructionType>
       </situationRecord>
     </situation>
-    <situation id="GUID578114568">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-578114573">
-        <situationRecordCreationReference>U-13-0424-0041</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-24T08:47:04+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T08:47:29+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-24T08:47:29+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">TCC System</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T08:47:19+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T10:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T08:47:19+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T10:00:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>100.0</capacityRemaining>
-            <numberOfLanesRestricted>3</numberOfLanesRestricted>
-            <numberOfOperationalLanes>3</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M602 eastbound between junctions J1 and J3, there are currently
-            delays of 10 mins due to heavy traffic . Normal traffic conditions expected from 10:00
-            am. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/376597,399140 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>eastBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>53.488464</latitude>
-                  <longitude>-2.354175</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M602 eastbound between J1 and J2</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.480453</latitude>
-                  <longitude>-2.284102</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J3</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M602</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A57</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.489616</latitude>
-                  <longitude>-2.370838</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J1</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M602</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M60</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
-      </situationRecord>
-    </situation>
     <situation id="GUID578114574">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -1646,10 +1396,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578114575">
         <situationRecordCreationReference>U-13-0424-0044</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-24T08:47:23+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T09:18:37+01:00</situationRecordVersionTime>
+        <situationRecordVersion>6</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T09:27:22+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-24T09:18:37+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-24T09:27:22+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -1669,7 +1419,7 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>3</numberOfLanesRestricted>
@@ -1678,13 +1428,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1800.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A50 westbound between the junctions with the A521 Blythe Bridge
-            East and the A521 Blythe Bridge West , there are currently delays of 30 mins caused by
+            East and the A521 Blythe Bridge West , there are currently delays of 15 mins caused by
             congestion due to an earlier incident. Normal traffic conditions expected from 10:00 am.
             Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/394551,341293 Link to Disclaimer:
@@ -1769,95 +1519,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Activities" id="GUID1-578114881">
-        <situationRecordCreationReference>U-13-0424-0046</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-24T08:49:17+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T09:01:02+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-24T09:01:02+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">call from wmrcc</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T08:49:16+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T10:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T08:49:16+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T10:00:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>1800.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A50 eastbound between the junctions with the A5007 and the A521
-            Blythe Bridge West , there are currently delays of 30 mins caused by congestion due to an
-            incident closing two lanes at the junction with the A521 Blythe Bridge West . Normal
-            traffic conditions expected from 10:00 am. Link to Multimap: Unavailable Link to
-            Streetmap: http://streetmap.co.uk/grid/394278,341685 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGSimplePoint">
-              <tpegDirection>eastBound</tpegDirection>
-              <tpegLocationType>intersection</tpegLocationType>
-              <point xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.972507</latitude>
-                  <longitude>-2.086652</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A50</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A521</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </point>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <disturbanceActivityType>other</disturbanceActivityType>
-      </situationRecord>
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578114881">
         <situationRecordCreationReference>U-13-0424-0046</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-24T08:49:17+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T09:01:02+01:00</situationRecordVersionTime>
+        <situationRecordVersion>6</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T09:26:52+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-24T09:01:02+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-24T09:26:52+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -1879,24 +1547,23 @@
         <impact>
           <impactOnTraffic>congested</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
+            <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
+            <numberOfOperationalLanes>2</numberOfOperationalLanes>
             <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1800.0</delayTimeValue>
+            <delayTimeValue>1200.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the A50 eastbound between the junctions with the A5007 and the A521
-            Blythe Bridge West , there are currently delays of 30 mins caused by congestion due to an
-            incident closing two lanes at the junction with the A521 Blythe Bridge West . Normal
-            traffic conditions expected from 10:00 am. Link to Multimap: Unavailable Link to
-            Streetmap: http://streetmap.co.uk/grid/394278,341685 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
+            <value lang="en">On the A50 eastbound between the junctions with the A5005 and the A521
+            Blythe Bridge West , there are currently delays of 20 mins caused by congestion due to an
+            earlier incident. Normal traffic conditions expected from 10:00 am. Link to Multimap:
+            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/391421,342887 Link to
+            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -1906,21 +1573,21 @@
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>52.982227</latitude>
-                  <longitude>-2.121495</longitude>
+                  <latitude>52.983273</latitude>
+                  <longitude>-2.129229</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">A50 eastbound within the A5007 near Longton (east)
-                    junction</value>
+                    <value lang="en">A50 eastbound between A5005/A5035 and A5007 near Longton
+                    (east)</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
               </framedPoint>
               <to xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>52.97404</latitude>
-                  <longitude>-2.089529</longitude>
+                  <latitude>52.970547</latitude>
+                  <longitude>-2.084519</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -1943,8 +1610,8 @@
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>52.982376</latitude>
-                  <longitude>-2.124936</longitude>
+                  <latitude>52.984276</latitude>
+                  <longitude>-2.132345</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -1960,7 +1627,7 @@
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A5007</value>
+                    <value lang="en">A5005</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
@@ -2094,132 +1761,6 @@
           </locationContainedInGroup>
         </groupOfLocations>
         <abnormalTrafficType>slowTraffic</abnormalTrafficType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID578117840">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-578117841">
-        <situationRecordCreationReference>U-13-0424-0072</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-24T09:04:34+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T09:05:45+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-24T09:05:45+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from swrcc</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T09:04:35+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T10:15:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T09:04:35+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T10:15:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>50.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>1</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A38 from Bodmin towards Exeter between the junctions with the
-            A388 and the A3064, there are currently delays of 10 mins due to a multi-vehicle accident
-            closing one lane. Normal traffic conditions expected from 10:15 am. Link to Multimap:
-            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/242053,59919 Link to
-            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>eastBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>50.41783</latitude>
-                  <longitude>-4.224652</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A38 eastbound between A388 and B3271 near Plymouth
-                    (west)</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>50.408684</latitude>
-                  <longitude>-4.166572</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A38</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A3064</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>50.4191</latitude>
-                  <longitude>-4.233961</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A38</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A388</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <accidentType>multivehicleAccident</accidentType>
       </situationRecord>
     </situation>
     <situation id="GUID578118455">
@@ -2357,10 +1898,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID1-578118923">
         <situationRecordCreationReference>U-13-0424-0088</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-24T09:12:07+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T09:12:33+01:00</situationRecordVersionTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T09:27:05+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-24T09:12:33+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-24T09:27:05+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -2380,7 +1921,7 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>congested</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>3</numberOfLanesRestricted>
@@ -2389,13 +1930,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1200.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A45 from The A14 towards M1 J15 between the junctions with the
-            A428 and the M1, there are currently delays of 20 mins due to heavy traffic . Normal
+            A428 and the M1, there are currently delays of 15 mins due to heavy traffic . Normal
             traffic conditions expected from 10:15 am. Link to Multimap: Unavailable Link to
             Streetmap: http://streetmap.co.uk/grid/476361,258280 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
@@ -2588,6 +2129,256 @@
                 <ilc>
                   <descriptor>
                     <value lang="en">A247</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID578121275">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-578121276">
+        <situationRecordCreationReference>U-13-0424-0112</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-24T09:28:00+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T09:28:08+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-24T09:28:08+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">TCC System</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-24T09:28:02+01:00</overallStartTime>
+            <overallEndTime>2013-04-24T10:30:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-24T09:28:02+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-24T10:30:00+01:00</endOfPeriod>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>5</numberOfLanesRestricted>
+            <numberOfOperationalLanes>5</numberOfOperationalLanes>
+            <originalNumberOfLanes>5</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>600.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the M25 anti-clockwise between junctions J14 and J13, there are
+            currently delays of 10 mins due to heavy traffic . Normal traffic conditions expected
+            from 10:30 am. Link to Multimap: Unavailable Link to Streetmap:
+            http://streetmap.co.uk/grid/502941,173904 Link to Disclaimer:
+            http://www.highways.gov.uk/aboutus/2301.aspx</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>anticlockwise</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>51.45477</latitude>
+                  <longitude>-0.519817</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">M25 anti-clockwise between J14 and J13</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>51.44718</latitude>
+                  <longitude>-0.526351</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J13</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M25</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A30</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>51.4782</latitude>
+                  <longitude>-0.50205</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">J14</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">M25</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A3113</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID578121271">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-578121277">
+        <situationRecordCreationReference>U-13-0424-0113</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-24T09:27:58+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T09:28:20+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-24T09:28:20+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">TCC System</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-24T09:28:06+01:00</overallStartTime>
+            <overallEndTime>2013-04-24T10:30:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-24T09:28:06+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-24T10:30:00+01:00</endOfPeriod>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>2</numberOfLanesRestricted>
+            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>600.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A1 southbound between the junctions with the A1056 and the A696,
+            there are currently delays of 10 mins due to heavy traffic . Normal traffic conditions
+            expected from 10:30 am. Link to Multimap: Unavailable Link to Streetmap:
+            http://streetmap.co.uk/grid/421777,568614 Link to Disclaimer:
+            http://www.highways.gov.uk/aboutus/2301.aspx</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>southBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>55.011616</latitude>
+                  <longitude>-1.661026</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A1 southbound between A1056 and A696</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>55.008305</latitude>
+                  <longitude>-1.664948</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A696</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>55.038902</latitude>
+                  <longitude>-1.628749</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1056</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
