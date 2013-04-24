@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-24T15:31:19+01:00</publicationTime>
+    <publicationTime>2013-04-24T15:41:19+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -148,10 +148,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578156120">
         <situationRecordCreationReference>U-13-0424-0240</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-24T14:55:32+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T15:15:53+01:00</situationRecordVersionTime>
+        <situationRecordVersion>6</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T15:40:28+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-24T15:15:53+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-24T15:40:28+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -174,9 +174,9 @@
           <impactOnTraffic>congested</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>100.0</capacityRemaining>
-            <numberOfLanesRestricted>4</numberOfLanesRestricted>
-            <numberOfOperationalLanes>4</numberOfOperationalLanes>
-            <originalNumberOfLanes>4</originalNumberOfLanes>
+            <numberOfLanesRestricted>3</numberOfLanesRestricted>
+            <numberOfOperationalLanes>3</numberOfOperationalLanes>
+            <originalNumberOfLanes>3</originalNumberOfLanes>
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
@@ -185,10 +185,10 @@
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the M62 eastbound between junctions J28 and J30, there are currently
+            <value lang="en">On the M62 eastbound between junctions J29 and J30, there are currently
             delays of 20 mins caused by congestion due to an earlier overturned vehicle. Normal
             traffic conditions expected from 4:15 pm. Link to Multimap: Unavailable Link to
-            Streetmap: http://streetmap.co.uk/grid/430130,426428 Link to Disclaimer:
+            Streetmap: http://streetmap.co.uk/grid/434125,425872 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
@@ -199,12 +199,12 @@
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>53.733395</latitude>
-                  <longitude>-1.544755</longitude>
+                  <latitude>53.728153</latitude>
+                  <longitude>-1.48426</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">M62 eastbound between J28 and J29</value>
+                    <value lang="en">M62 eastbound between J29 and J30</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
@@ -235,12 +235,12 @@
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>53.733524</latitude>
-                  <longitude>-1.570129</longitude>
+                  <latitude>53.729397</latitude>
+                  <longitude>-1.504435</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">J28</value>
+                    <value lang="en">J29</value>
                   </descriptor>
                   <tpegDescriptorType>junctionName</tpegDescriptorType>
                 </name>
@@ -252,7 +252,7 @@
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A653</value>
+                    <value lang="en">M1</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
