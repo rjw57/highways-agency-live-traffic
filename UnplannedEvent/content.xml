@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-24T20:21:20+01:00</publicationTime>
+    <publicationTime>2013-04-24T20:31:20+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -20,13 +20,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-578178608">
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578178608">
         <situationRecordCreationReference>U-13-0424-0311</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-24T18:17:39+01:00</situationRecordCreationTime>
-        <situationRecordVersion>7</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T19:56:25+01:00</situationRecordVersionTime>
+        <situationRecordVersion>8</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-24T20:29:55+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-24T19:56:25+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-24T20:29:55+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -38,34 +38,33 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-24T18:17:40+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T20:45:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-24T21:15:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-24T18:17:40+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T20:45:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-24T21:15:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>impossible</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
+            <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
+            <numberOfOperationalLanes>2</numberOfOperationalLanes>
             <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>1800.0</delayTimeValue>
+            <delayTimeValue>900.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the A14 eastbound between junctions J55 Copdock and J56 Ipswich
-            Docks, there are currently delays of 30 mins caused by congestion due to a serious
-            accident closing the road between junctions J56 Ipswich Docks and J57 Ipswich East. Road
-            expected to re-open from 8:45 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/617842,241261 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
+            Docks, there are currently delays of 15 mins caused by congestion due to an earlier
+            serious accident. Normal traffic conditions expected from 9:15 pm. Link to Multimap:
+            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/614111,241449 Link to
+            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -75,12 +74,12 @@
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>52.026974</latitude>
-                  <longitude>1.174028</longitude>
+                  <latitude>52.030113</latitude>
+                  <longitude>1.119848</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">A14 eastbound between J56 and J57</value>
+                    <value lang="en">A14 eastbound between J55 and J56</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
@@ -88,125 +87,7 @@
               <to xsi:type="TPEGJunction">
                 <pointCoordinates>
                   <latitude>52.024</latitude>
-                  <longitude>1.20419</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J57</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A14</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A1189</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.0239</latitude>
-                  <longitude>1.14586</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J56</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A14</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A137</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <accidentType>seriousAccident</accidentType>
-      </situationRecord>
-      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578178608">
-        <situationRecordCreationReference>U-13-0424-0311</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-24T18:17:39+01:00</situationRecordCreationTime>
-        <situationRecordVersion>7</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T19:56:25+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-24T19:56:25+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from ERCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T18:17:40+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T20:45:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T18:17:40+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T20:45:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>impossible</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>1800.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the A14 eastbound between junctions J55 Copdock and J56 Ipswich
-            Docks, there are currently delays of 30 mins caused by congestion due to a serious
-            accident closing the road between junctions J56 Ipswich Docks and J57 Ipswich East. Road
-            expected to re-open from 8:45 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/617842,241261 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>eastBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.035717</latitude>
-                  <longitude>1.099151</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A14 eastbound within J55</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.02464</latitude>
-                  <longitude>1.144441</longitude>
+                  <longitude>1.13571</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -229,8 +110,8 @@
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>52.0383</latitude>
-                  <longitude>1.0978</longitude>
+                  <latitude>52.0327</latitude>
+                  <longitude>1.10544</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -255,255 +136,6 @@
           </locationContainedInGroup>
         </groupOfLocations>
         <abnormalTrafficType>slowTraffic</abnormalTrafficType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID578179971">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="GeneralObstruction" id="GUID1-578179972">
-        <situationRecordCreationReference>U-13-0424-0312</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-24T18:24:57+01:00</situationRecordCreationTime>
-        <situationRecordVersion>4</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T20:12:23+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-24T20:12:23+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">Call from NWRCC</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T18:24:57+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T21:15:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T18:24:57+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T21:15:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>66.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
-            <originalNumberOfLanes>3</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">On the M57 southbound between junctions J7 and J6, there are currently
-            delays of 10 mins due to vehicle recovery closing one lane. Normal traffic conditions
-            expected from 9:15 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/338751,399077 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>southBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>53.484844</latitude>
-                  <longitude>-2.924485</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M57 southbound between J7 and J6</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.47624</latitude>
-                  <longitude>-2.905118</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J6</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M57</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A506</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>53.4937</latitude>
-                  <longitude>-2.950966</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J7</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M57</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M58</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <obstructionType>rescueAndRecoveryWork</obstructionType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID578180570">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="Activities" id="GUID1-578180571">
-        <situationRecordCreationReference>U-13-0424-0313</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-24T18:27:43+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-24T19:55:43+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-24T19:55:43+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">SLIP CLOSURE</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T18:27:43+01:00</overallStartTime>
-            <overallEndTime>2013-04-24T20:45:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T18:27:43+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-24T20:45:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>impossible</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
-            <originalNumberOfLanes>1</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">The A14 eastbound entry slip at junction J56 Ipswich Docks is closed ,
-            due to an incident. Road expected to re-open from 8:45 pm. Link to Multimap: Unavailable
-            Link to Streetmap: http://streetmap.co.uk/grid/615657,240904 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>eastBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>52.024624</latitude>
-                  <longitude>1.142005</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A14 J56 eastbound access</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.024624</latitude>
-                  <longitude>1.142005</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J56</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A14</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A14</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>52.024624</latitude>
-                  <longitude>1.142005</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J56</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A14</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A137</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <disturbanceActivityType>other</disturbanceActivityType>
       </situationRecord>
     </situation>
   </payloadPublication>
