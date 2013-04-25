@@ -8,126 +8,126 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-25T02:11:19+01:00</publicationTime>
+    <publicationTime>2013-04-25T02:31:20+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
     </publicationCreator>
-    <situation id="GUID578234404">
+    <situation id="GUID578239105">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
         <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-578234405">
-        <situationRecordCreationReference>U-13-0425-0002</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-25T01:33:23+01:00</situationRecordCreationTime>
-        <situationRecordVersion>2</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T01:34:35+01:00</situationRecordVersionTime>
+      <situationRecord xsi:type="Accident" id="GUID1-578239113">
+        <situationRecordCreationReference>U-13-0425-0003</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-25T02:25:09+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T02:26:15+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T01:34:35+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-25T02:26:15+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
           <sourceName>
-            <value lang="en">TCC System</value>
+            <value lang="en">CCTV Obs</value>
           </sourceName>
         </sourceInformation>
         <validity>
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
-            <overallStartTime>2013-04-25T01:33:37+01:00</overallStartTime>
-            <overallEndTime>2013-04-25T02:45:00+01:00</overallEndTime>
+            <overallStartTime>2013-04-25T02:25:10+01:00</overallStartTime>
+            <overallEndTime>2013-04-25T03:30:00+01:00</overallEndTime>
             <validPeriod>
-              <startOfPeriod>2013-04-25T01:33:37+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-25T02:45:00+01:00</endOfPeriod>
+              <startOfPeriod>2013-04-25T02:25:10+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-25T03:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>100.0</capacityRemaining>
+            <capacityRemaining>50.0</capacityRemaining>
             <numberOfLanesRestricted>2</numberOfLanesRestricted>
             <numberOfOperationalLanes>2</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <originalNumberOfLanes>4</originalNumberOfLanes>
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>0.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the A38 from Bodmin towards Exeter between the junctions with the
-            A374 Plymouth and the A384, there are currently delays of 10 mins due to heavy traffic .
-            Normal traffic conditions expected from 2:45 am. Link to Multimap: Unavailable Link to
-            Streetmap: http://streetmap.co.uk/grid/270886,59580 Link to Disclaimer:
+            <value lang="en">On the M1 northbound between junctions J25 and J26, minor delays are
+            possible due to an accident closing two lanes. Normal traffic conditions expected from
+            3:30 am. Link to Multimap: Unavailable Link to Streetmap:
+            http://streetmap.co.uk/grid/448063,338204 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
           <locationContainedInGroup xsi:type="Point">
             <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>eastBound</tpegDirection>
+              <tpegDirection>northBound</tpegDirection>
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>50.421833</latitude>
-                  <longitude>-3.818914</longitude>
+                  <latitude>52.939106</latitude>
+                  <longitude>-1.286286</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">A38 eastbound between B3372 and A385</value>
+                    <value lang="en">M1 northbound between J25 and J26</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
               </framedPoint>
               <to xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>50.48619</latitude>
-                  <longitude>-3.769238</longitude>
+                  <latitude>52.984756</latitude>
+                  <longitude>-1.241461</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">unknown</value>
+                    <value lang="en">J26</value>
                   </descriptor>
                   <tpegDescriptorType>junctionName</tpegDescriptorType>
                 </name>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A38</value>
+                    <value lang="en">M1</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A384</value>
+                    <value lang="en">A610</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>50.38635</latitude>
-                  <longitude>-4.080807</longitude>
+                  <latitude>52.919273</latitude>
+                  <longitude>-1.300027</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">unknown</value>
+                    <value lang="en">J25</value>
                   </descriptor>
                   <tpegDescriptorType>junctionName</tpegDescriptorType>
                 </name>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A38</value>
+                    <value lang="en">M1</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
                 </ilc>
                 <ilc>
                   <descriptor>
-                    <value lang="en">A374</value>
+                    <value lang="en">A52</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
@@ -135,7 +135,7 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
+        <accidentType>accident</accidentType>
       </situationRecord>
     </situation>
   </payloadPublication>
