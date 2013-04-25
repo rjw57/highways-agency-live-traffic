@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-25T14:01:19+01:00</publicationTime>
+    <publicationTime>2013-04-25T14:11:19+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -2400,7 +2400,7 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactOnTraffic>freeFlow</impactOnTraffic>
           <impactDetails>
             <capacityRemaining>100.0</capacityRemaining>
             <numberOfLanesRestricted>0</numberOfLanesRestricted>
@@ -2409,14 +2409,13 @@
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>600.0</delayTimeValue>
+            <delayTimeValue>0.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the M5 northbound between junctions J17 and J15, there are currently
-            delays of 10 mins due to roadworks . Expect disruption until 11:59 pm on 29 June
-            2013.</value>
+            <value lang="en">On the M5 northbound between junctions J17 and J15, minor delays are
+            possible due to roadworks . Expect disruption until 11:59 pm on 29 June 2013.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -13634,10 +13633,10 @@
       <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576609741">
         <situationRecordCreationReference>P-13-0415-0009</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-15T01:55:17+01:00</situationRecordCreationTime>
-        <situationRecordVersion>3</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T16:00:41+01:00</situationRecordVersionTime>
+        <situationRecordVersion>4</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T14:06:00+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-22T16:00:41+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-25T14:06:00+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -13657,23 +13656,23 @@
           </validityTimeSpecification>
         </validity>
         <impact>
-          <impactOnTraffic>freeFlow</impactOnTraffic>
+          <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>66.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <capacityRemaining>33.0</capacityRemaining>
+            <numberOfLanesRestricted>2</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
             <originalNumberOfLanes>3</originalNumberOfLanes>
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
           <delays>
-            <delayTimeValue>0.0</delayTimeValue>
+            <delayTimeValue>600.0</delayTimeValue>
           </delays>
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the M1 northbound between junctions J15 and J15A, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:00 am on 27 April
-            2013.</value>
+            <value lang="en">On the M1 northbound between junctions J15 and J15A, there are currently
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 6:00 am on
+            27 April 2013.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
