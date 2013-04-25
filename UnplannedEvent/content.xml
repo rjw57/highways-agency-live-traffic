@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-25T20:21:20+01:00</publicationTime>
+    <publicationTime>2013-04-25T20:31:20+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -20,13 +20,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-578349456">
+      <situationRecord xsi:type="GeneralObstruction" id="GUID1-578349456">
         <situationRecordCreationReference>U-13-0425-0308</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-25T18:43:59+01:00</situationRecordCreationTime>
-        <situationRecordVersion>14</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T20:12:29+01:00</situationRecordVersionTime>
+        <situationRecordVersion>15</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T20:28:36+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T20:12:29+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-25T20:28:36+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -61,10 +61,10 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 southbound between junctions J13 and J14, there are currently
-            delays of 10 mins caused by congestion due to an overturned vehicle closing one lane
-            between junctions J14 and J15. Normal traffic conditions expected from 9:30 pm. Link to
-            Multimap: Unavailable Link to Streetmap: http://streetmap.co.uk/grid/368125,191692 Link
-            to Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
+            delays of 10 mins caused by congestion due to vehicle recovery closing one lane between
+            junctions J14 and J15. Normal traffic conditions expected from 9:30 pm. Link to Multimap:
+            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/368125,191692 Link to
+            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -135,15 +135,15 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <accidentType>overturnedVehicle</accidentType>
+        <obstructionType>rescueAndRecoveryWork</obstructionType>
       </situationRecord>
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578349456">
         <situationRecordCreationReference>U-13-0425-0308</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-25T18:43:59+01:00</situationRecordCreationTime>
-        <situationRecordVersion>14</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T20:12:29+01:00</situationRecordVersionTime>
+        <situationRecordVersion>15</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T20:28:36+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T20:12:29+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-25T20:28:36+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -178,10 +178,10 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 southbound between junctions J13 and J14, there are currently
-            delays of 10 mins caused by congestion due to an overturned vehicle closing one lane
-            between junctions J14 and J15. Normal traffic conditions expected from 9:30 pm. Link to
-            Multimap: Unavailable Link to Streetmap: http://streetmap.co.uk/grid/368125,191692 Link
-            to Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
+            delays of 10 mins caused by congestion due to vehicle recovery closing one lane between
+            junctions J14 and J15. Normal traffic conditions expected from 9:30 pm. Link to Multimap:
+            Unavailable Link to Streetmap: http://streetmap.co.uk/grid/368125,191692 Link to
+            Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -262,13 +262,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-578350973">
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578350973">
         <situationRecordCreationReference>U-13-0425-0320</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-25T18:51:08+01:00</situationRecordCreationTime>
-        <situationRecordVersion>5</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T19:42:01+01:00</situationRecordVersionTime>
+        <situationRecordVersion>6</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T20:30:15+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T19:42:01+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-25T20:30:15+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -290,9 +290,9 @@
         <impact>
           <impactOnTraffic>heavy</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>50.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>4</numberOfLanesRestricted>
+            <numberOfOperationalLanes>4</numberOfOperationalLanes>
             <originalNumberOfLanes>4</originalNumberOfLanes>
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
@@ -303,9 +303,9 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M25 anti-clockwise between junctions J3 and J2, there are
-            currently delays of 15 mins due to an accident closing two lanes. Normal traffic
-            conditions expected from 9:00 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/554534,170670 Link to Disclaimer:
+            currently delays of 15 mins caused by congestion due to an earlier accident. Normal
+            traffic conditions expected from 9:00 pm. Link to Multimap: Unavailable Link to
+            Streetmap: http://streetmap.co.uk/grid/554534,170670 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
@@ -377,7 +377,7 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <accidentType>accident</accidentType>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
       </situationRecord>
     </situation>
     <situation id="GUID578354583">
@@ -515,10 +515,10 @@
       <situationRecord xsi:type="VehicleObstruction" id="GUID1-578358706">
         <situationRecordCreationReference>U-13-0425-0341</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-25T19:38:08+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T19:39:07+01:00</situationRecordVersionTime>
+        <situationRecordVersion>4</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T20:24:53+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T19:39:07+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-25T20:24:53+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -530,19 +530,19 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-25T19:38:08+01:00</overallStartTime>
-            <overallEndTime>2013-04-25T20:45:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-25T21:30:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-25T19:38:08+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-25T20:45:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-25T21:30:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
         <impact>
           <impactOnTraffic>freeFlow</impactOnTraffic>
           <impactDetails>
-            <capacityRemaining>66.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <capacityRemaining>33.0</capacityRemaining>
+            <numberOfLanesRestricted>2</numberOfLanesRestricted>
+            <numberOfOperationalLanes>1</numberOfOperationalLanes>
             <originalNumberOfLanes>3</originalNumberOfLanes>
             <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
           </impactDetails>
@@ -553,8 +553,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 southbound between junctions J14 and J15, minor delays are
-            possible due to a broken down vehicle closing one lane. Normal traffic conditions
-            expected from 8:45 pm. Link to Multimap: Unavailable Link to Streetmap:
+            possible due to a broken down vehicle closing two lanes. Normal traffic conditions
+            expected from 9:30 pm. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/368125,191692 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
