@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-26T00:01:21+01:00</publicationTime>
+    <publicationTime>2013-04-26T00:11:23+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -20,13 +20,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Accident" id="GUID1-578388905">
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-578388905">
         <situationRecordCreationReference>U-13-0425-0367</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-25T23:07:30+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T23:08:12+01:00</situationRecordVersionTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-26T00:04:49+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T23:08:12+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-26T00:04:49+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -38,10 +38,10 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-25T23:07:30+01:00</overallStartTime>
-            <overallEndTime>2013-04-26T00:30:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-26T01:00:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-25T23:07:30+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-26T00:30:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-26T01:00:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -60,9 +60,9 @@
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the M3 westbound at junction J7, minor delays are possible due to an
-            accident closing one lane. Normal traffic conditions expected from 12:30 am on 26 April
-            2013. Link to Multimap: Unavailable Link to Streetmap:
+            <value lang="en">On the M3 westbound at junction J7, minor delays are possible due to
+            barrier repairs closing one lane following an earlier accident. Normal traffic conditions
+            expected from 1:00 am. Link to Multimap: Unavailable Link to Streetmap:
             http://streetmap.co.uk/grid/458905,146957 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
@@ -99,7 +99,12 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <accidentType>accident</accidentType>
+        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
+        <urgentRoadworks>true</urgentRoadworks>
+        <subjectTypeOfWorks>
+          <subjectTypeOfWorks>crashBarrier</subjectTypeOfWorks>
+        </subjectTypeOfWorks>
+        <roadMaintenanceType>repairWork</roadMaintenanceType>
       </situationRecord>
     </situation>
     <situation id="GUID578388946">
@@ -109,13 +114,13 @@
         <informationUsage>broadcast</informationUsage>
         <informationStatus>real</informationStatus>
       </headerInformation>
-      <situationRecord xsi:type="Activities" id="GUID1-578388947">
+      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-578388947">
         <situationRecordCreationReference>U-13-0425-0368</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-25T23:08:20+01:00</situationRecordCreationTime>
-        <situationRecordVersion>1</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T23:08:58+01:00</situationRecordVersionTime>
+        <situationRecordVersion>2</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-26T00:04:52+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T23:08:58+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-26T00:04:52+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -127,10 +132,10 @@
           <validityStatus>definedByValidityTimeSpec</validityStatus>
           <validityTimeSpecification>
             <overallStartTime>2013-04-25T23:08:20+01:00</overallStartTime>
-            <overallEndTime>2013-04-26T00:30:00+01:00</overallEndTime>
+            <overallEndTime>2013-04-26T01:00:00+01:00</overallEndTime>
             <validPeriod>
               <startOfPeriod>2013-04-25T23:08:20+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-26T00:30:00+01:00</endOfPeriod>
+              <endOfPeriod>2013-04-26T01:00:00+01:00</endOfPeriod>
             </validPeriod>
           </validityTimeSpecification>
         </validity>
@@ -149,11 +154,10 @@
         </impact>
         <nonGeneralPublicComment>
           <comment>
-            <value lang="en">On the M3 eastbound at junction J7, minor delays are possible due to an
-            incident closing one lane. Normal traffic conditions expected from 12:30 am on 26 April
-            2013. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/458912,146981 Link to Disclaimer:
-            http://www.highways.gov.uk/aboutus/2301.aspx</value>
+            <value lang="en">On the M3 eastbound at junction J7, minor delays are possible due to
+            barrier repairs closing one lane. Normal traffic conditions expected from 1:00 am. Link
+            to Multimap: Unavailable Link to Streetmap: http://streetmap.co.uk/grid/458912,146981
+            Link to Disclaimer: http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -188,7 +192,12 @@
             </tpegpointLocation>
           </locationContainedInGroup>
         </groupOfLocations>
-        <disturbanceActivityType>other</disturbanceActivityType>
+        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
+        <urgentRoadworks>true</urgentRoadworks>
+        <subjectTypeOfWorks>
+          <subjectTypeOfWorks>crashBarrier</subjectTypeOfWorks>
+        </subjectTypeOfWorks>
+        <roadMaintenanceType>repairWork</roadMaintenanceType>
       </situationRecord>
     </situation>
   </payloadPublication>
