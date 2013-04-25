@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-25T15:31:19+01:00</publicationTime>
+    <publicationTime>2013-04-25T15:41:19+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -23,10 +23,10 @@
       <situationRecord xsi:type="AbnormalTraffic" id="GUID2-578318052">
         <situationRecordCreationReference>U-13-0425-0210</situationRecordCreationReference>
         <situationRecordCreationTime>2013-04-25T14:30:25+01:00</situationRecordCreationTime>
-        <situationRecordVersion>10</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T15:22:43+01:00</situationRecordVersionTime>
+        <situationRecordVersion>11</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T15:40:19+01:00</situationRecordVersionTime>
         <situationRecordFirstSupplierVersionTime>
-        2013-04-25T15:22:43+01:00</situationRecordFirstSupplierVersionTime>
+        2013-04-25T15:40:19+01:00</situationRecordFirstSupplierVersionTime>
         <probabilityOfOccurrence>certain</probabilityOfOccurrence>
         <sourceInformation>
           <sourceCountry>gb</sourceCountry>
@@ -63,7 +63,7 @@
             <value lang="en">On the M6 northbound between junctions J4 and J6, there are currently
             delays of 40 mins caused by congestion due to an earlier accident. Normal traffic
             conditions expected from 4:15 pm. Link to Multimap: Unavailable Link to Streetmap:
-            http://streetmap.co.uk/grid/418049,288604 Link to Disclaimer:
+            http://streetmap.co.uk/grid/420158,286542 Link to Disclaimer:
             http://www.highways.gov.uk/aboutus/2301.aspx</value>
           </comment>
         </nonGeneralPublicComment>
@@ -74,12 +74,12 @@
               <tpegLocationType>framedPoint</tpegLocationType>
               <framedPoint>
                 <pointCoordinates>
-                  <latitude>52.495064</latitude>
-                  <longitude>-1.735576</longitude>
+                  <latitude>52.476456</latitude>
+                  <longitude>-1.704636</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
-                    <value lang="en">M6 northbound between J4 and J4A</value>
+                    <value lang="en">M6 northbound within J4 before A446 access</value>
                   </descriptor>
                   <tpegDescriptorType>linkName</tpegDescriptorType>
                 </name>
@@ -110,8 +110,8 @@
               </to>
               <from xsi:type="TPEGJunction">
                 <pointCoordinates>
-                  <latitude>52.480534</latitude>
-                  <longitude>-1.719407</longitude>
+                  <latitude>52.476063</latitude>
+                  <longitude>-1.677872</longitude>
                 </pointCoordinates>
                 <name>
                   <descriptor>
@@ -378,6 +378,132 @@
                 <ilc>
                   <descriptor>
                     <value lang="en">A69</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </from>
+            </tpegpointLocation>
+          </locationContainedInGroup>
+        </groupOfLocations>
+        <abnormalTrafficType>slowTraffic</abnormalTrafficType>
+      </situationRecord>
+    </situation>
+    <situation id="GUID578325982">
+      <headerInformation>
+        <areaOfInterest>national</areaOfInterest>
+        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+        <informationUsage>broadcast</informationUsage>
+        <informationStatus>real</informationStatus>
+      </headerInformation>
+      <situationRecord xsi:type="AbnormalTraffic" id="GUID1-578326060">
+        <situationRecordCreationReference>U-13-0425-0215</situationRecordCreationReference>
+        <situationRecordCreationTime>2013-04-25T15:36:44+01:00</situationRecordCreationTime>
+        <situationRecordVersion>1</situationRecordVersion>
+        <situationRecordVersionTime>2013-04-25T15:37:15+01:00</situationRecordVersionTime>
+        <situationRecordFirstSupplierVersionTime>
+        2013-04-25T15:37:15+01:00</situationRecordFirstSupplierVersionTime>
+        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+        <sourceInformation>
+          <sourceCountry>gb</sourceCountry>
+          <sourceName>
+            <value lang="en">TCC System</value>
+          </sourceName>
+        </sourceInformation>
+        <validity>
+          <validityStatus>definedByValidityTimeSpec</validityStatus>
+          <validityTimeSpecification>
+            <overallStartTime>2013-04-25T15:37:01+01:00</overallStartTime>
+            <overallEndTime>2013-04-25T16:45:00+01:00</overallEndTime>
+            <validPeriod>
+              <startOfPeriod>2013-04-25T15:37:01+01:00</startOfPeriod>
+              <endOfPeriod>2013-04-25T16:45:00+01:00</endOfPeriod>
+            </validPeriod>
+          </validityTimeSpecification>
+        </validity>
+        <impact>
+          <impactOnTraffic>heavy</impactOnTraffic>
+          <impactDetails>
+            <capacityRemaining>100.0</capacityRemaining>
+            <numberOfLanesRestricted>2</numberOfLanesRestricted>
+            <numberOfOperationalLanes>2</numberOfOperationalLanes>
+            <originalNumberOfLanes>2</originalNumberOfLanes>
+            <trafficRestrictionType>carriagewayPartiallyObstructed</trafficRestrictionType>
+          </impactDetails>
+          <delays>
+            <delayTimeValue>600.0</delayTimeValue>
+          </delays>
+        </impact>
+        <nonGeneralPublicComment>
+          <comment>
+            <value lang="en">On the A1 northbound between the junctions with the A194(M) and the
+            A694, there are currently delays of 10 mins due to heavy traffic . Normal traffic
+            conditions expected from 4:45 pm. Link to Multimap: Unavailable Link to Streetmap:
+            http://streetmap.co.uk/grid/427700,556988 Link to Disclaimer:
+            http://www.highways.gov.uk/aboutus/2301.aspx</value>
+          </comment>
+        </nonGeneralPublicComment>
+        <groupOfLocations>
+          <locationContainedInGroup xsi:type="Point">
+            <tpegpointLocation xsi:type="TPEGFramedPoint">
+              <tpegDirection>northBound</tpegDirection>
+              <tpegLocationType>framedPoint</tpegLocationType>
+              <framedPoint>
+                <pointCoordinates>
+                  <latitude>54.906853</latitude>
+                  <longitude>-1.569527</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">A1 northbound between A1(M)/A194(M) and A167 near Washington
+                    Birtley</value>
+                  </descriptor>
+                  <tpegDescriptorType>linkName</tpegDescriptorType>
+                </name>
+              </framedPoint>
+              <to xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.95629</latitude>
+                  <longitude>-1.681711</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A694</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+                </ilc>
+              </to>
+              <from xsi:type="TPEGJunction">
+                <pointCoordinates>
+                  <latitude>54.903267</latitude>
+                  <longitude>-1.561534</longitude>
+                </pointCoordinates>
+                <name>
+                  <descriptor>
+                    <value lang="en">unknown</value>
+                  </descriptor>
+                  <tpegDescriptorType>junctionName</tpegDescriptorType>
+                </name>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A1</value>
+                  </descriptor>
+                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+                </ilc>
+                <ilc>
+                  <descriptor>
+                    <value lang="en">A194(M)</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
