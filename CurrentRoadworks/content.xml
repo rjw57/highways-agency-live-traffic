@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-26T01:21:19+01:00</publicationTime>
+    <publicationTime>2013-04-26T01:31:19+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -41118,7 +41118,7 @@
           <comment>
             <value lang="en">On the A30 from Penzance towards Honiton between the junctions with the
             A38 and the A395, minor delays are possible due to roadworks . Expect disruption until
-            4:00 am on 26 April 2013.</value>
+            4:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42247,7 +42247,7 @@
           <comment>
             <value lang="en">On the A5 from Harpenden towards Cannock between the junctions with the
             A4303 and the M69, minor delays are possible due to roadworks . Expect disruption until
-            6:00 am on 26 April 2013.</value>
+            6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -42876,8 +42876,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M1 southbound between junctions J14 and J13, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:00 am on
-            26 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:00
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -51476,129 +51476,6 @@
                 <ilc>
                   <descriptor>
                     <value lang="en">A61</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
-        <roadMaintenanceType>roadworks</roadMaintenanceType>
-      </situationRecord>
-    </situation>
-    <situation id="GUID577854488">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-577854489">
-        <situationRecordCreationReference>P-13-0422-0261</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-22T19:17:23+01:00</situationRecordCreationTime>
-        <situationRecordVersion>2</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-22T19:17:30+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-22T19:17:30+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">SRW</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-25T22:00:00+01:00</overallStartTime>
-            <overallEndTime>2013-04-26T05:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-25T22:00:00+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-26T05:00:00+01:00</endOfPeriod>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>impossible</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
-            <numberOfLanesRestricted>2</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
-            <originalNumberOfLanes>2</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">The M25 anti-clockwise entry slip at junction J29 is closed , due to
-            roadworks. Road expected to re-open from 5:00 am on 26 April 2013.</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>anticlockwise</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>51.573486</latitude>
-                  <longitude>0.283935</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">M25 J29 anti-clockwise access</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.573486</latitude>
-                  <longitude>0.283935</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J29</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M25</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M25</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.573486</latitude>
-                  <longitude>0.283935</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">J29</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">M25</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A127</value>
                   </descriptor>
                   <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
                 </ilc>
