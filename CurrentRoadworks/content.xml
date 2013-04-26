@@ -8,7 +8,7 @@
   </exchange>
   <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="SituationPublication" lang="en">
-    <publicationTime>2013-04-26T02:31:19+01:00</publicationTime>
+    <publicationTime>2013-04-26T02:41:19+01:00</publicationTime>
     <publicationCreator>
       <country>gb</country>
       <nationalIdentifier>NTCC</nationalIdentifier>
@@ -10145,8 +10145,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M25 clockwise between junctions J5 and J6, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30 am on
-            26 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -17524,8 +17524,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M54 eastbound between junctions J6 and J4, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 6:30 am on 26 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 6:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -34183,133 +34182,6 @@
         <roadMaintenanceType>roadworks</roadMaintenanceType>
       </situationRecord>
     </situation>
-    <situation id="GUID576993823">
-      <headerInformation>
-        <areaOfInterest>national</areaOfInterest>
-        <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
-        <informationUsage>broadcast</informationUsage>
-        <informationStatus>real</informationStatus>
-      </headerInformation>
-      <situationRecord xsi:type="MaintenanceWorks" id="GUID1-576993824">
-        <situationRecordCreationReference>P-13-0417-0063</situationRecordCreationReference>
-        <situationRecordCreationTime>2013-04-17T10:00:29+01:00</situationRecordCreationTime>
-        <situationRecordVersion>8</situationRecordVersion>
-        <situationRecordVersionTime>2013-04-25T21:36:04+01:00</situationRecordVersionTime>
-        <situationRecordFirstSupplierVersionTime>
-        2013-04-25T21:36:04+01:00</situationRecordFirstSupplierVersionTime>
-        <probabilityOfOccurrence>certain</probabilityOfOccurrence>
-        <sourceInformation>
-          <sourceCountry>gb</sourceCountry>
-          <sourceName>
-            <value lang="en">SRW</value>
-          </sourceName>
-        </sourceInformation>
-        <validity>
-          <validityStatus>definedByValidityTimeSpec</validityStatus>
-          <validityTimeSpecification>
-            <overallStartTime>2013-04-24T21:30:00+01:00</overallStartTime>
-            <overallEndTime>2013-04-26T06:00:00+01:00</overallEndTime>
-            <validPeriod>
-              <startOfPeriod>2013-04-24T21:30:00+01:00</startOfPeriod>
-              <endOfPeriod>2013-04-26T06:00:00+01:00</endOfPeriod>
-              <recurringTimePeriodOfDay xsi:type="TimePeriodByHour">
-                <startTimeOfPeriod>21:30:00</startTimeOfPeriod>
-                <endTimeOfPeriod>06:00:00</endTimeOfPeriod>
-              </recurringTimePeriodOfDay>
-            </validPeriod>
-          </validityTimeSpecification>
-        </validity>
-        <impact>
-          <impactOnTraffic>impossible</impactOnTraffic>
-          <impactDetails>
-            <capacityRemaining>0.0</capacityRemaining>
-            <numberOfLanesRestricted>1</numberOfLanesRestricted>
-            <numberOfOperationalLanes>0</numberOfOperationalLanes>
-            <originalNumberOfLanes>1</originalNumberOfLanes>
-            <trafficRestrictionType>carriagewayBlocked</trafficRestrictionType>
-          </impactDetails>
-          <delays>
-            <delayTimeValue>600.0</delayTimeValue>
-          </delays>
-        </impact>
-        <nonGeneralPublicComment>
-          <comment>
-            <value lang="en">The A3 southbound exit slip to the A272 is closed , due to roadworks.
-            Road expected to re-open from 6:00 am.</value>
-          </comment>
-        </nonGeneralPublicComment>
-        <groupOfLocations>
-          <locationContainedInGroup xsi:type="Point">
-            <tpegpointLocation xsi:type="TPEGFramedPoint">
-              <tpegDirection>southBound</tpegDirection>
-              <tpegLocationType>framedPoint</tpegLocationType>
-              <framedPoint>
-                <pointCoordinates>
-                  <latitude>51.018826</latitude>
-                  <longitude>-0.928768</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">A3 southbound exit for A272 near Petersfield (north)</value>
-                  </descriptor>
-                  <tpegDescriptorType>linkName</tpegDescriptorType>
-                </name>
-              </framedPoint>
-              <to xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.018826</latitude>
-                  <longitude>-0.928768</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A3</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A272</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </to>
-              <from xsi:type="TPEGJunction">
-                <pointCoordinates>
-                  <latitude>51.018826</latitude>
-                  <longitude>-0.928768</longitude>
-                </pointCoordinates>
-                <name>
-                  <descriptor>
-                    <value lang="en">unknown</value>
-                  </descriptor>
-                  <tpegDescriptorType>junctionName</tpegDescriptorType>
-                </name>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A3</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
-                </ilc>
-                <ilc>
-                  <descriptor>
-                    <value lang="en">A3</value>
-                  </descriptor>
-                  <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
-                </ilc>
-              </from>
-            </tpegpointLocation>
-          </locationContainedInGroup>
-        </groupOfLocations>
-        <effectOnRoadLayout>laneClosures</effectOnRoadLayout>
-        <roadMaintenanceType>roadworks</roadMaintenanceType>
-      </situationRecord>
-    </situation>
     <situation id="GUID576994177">
       <headerInformation>
         <areaOfInterest>national</areaOfInterest>
@@ -35253,8 +35125,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M25 anti-clockwise between junctions J16 and J15, minor delays
-            are possible due to roadworks closing two lanes. Expect disruption until 5:00 am on 26
-            April 2013.</value>
+            are possible due to roadworks closing two lanes. Expect disruption until 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -39955,8 +39826,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M25 clockwise between junctions J9 and J10, minor delays are
-            possible due to roadworks closing two lanes. Expect disruption until 5:00 am on 26 April
-            2013.</value>
+            possible due to roadworks closing two lanes. Expect disruption until 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -40080,7 +39950,7 @@
           <comment>
             <value lang="en">On the M25 anti-clockwise between junctions J29 and J28, there are
             currently delays of 10 mins due to roadworks closing three lanes. Expect disruption until
-            5:00 am on 26 April 2013.</value>
+            5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -43573,8 +43443,8 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M25 clockwise between junctions J26 and J27, there are currently
-            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30 am on
-            26 April 2013.</value>
+            delays of 10 mins due to roadworks closing two lanes. Expect disruption until 5:30
+            am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -46915,7 +46785,7 @@
           <comment>
             <value lang="en">On the A49 southbound between the junctions with the A5 south of
             Shrewsbury and the A489, minor delays are possible due to roadworks . Expect disruption
-            until 6:00 am on 26 April 2013.</value>
+            until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -48549,7 +48419,7 @@
           <comment>
             <value lang="en">On the A31 westbound between the junctions with the A338 North and the
             A338 South, minor delays are possible due to roadworks closing one lane. Expect
-            disruption until 5:00 am on 26 April 2013.</value>
+            disruption until 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -52117,7 +51987,7 @@
           <comment>
             <value lang="en">On the A5 from The Welsh Border towards Telford West at the junction
             with the A49 East of Shrewsbury, minor delays are possible due to roadworks closing one
-            lane. Expect disruption until 6:00 am on 26 April 2013.</value>
+            lane. Expect disruption until 6:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -56754,8 +56624,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M25 clockwise between junctions J31 and J1A, minor delays are
-            possible due to roadworks closing two lanes. Expect disruption until 5:00 am on 26 April
-            2013.</value>
+            possible due to roadworks closing two lanes. Expect disruption until 5:00 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
@@ -57624,8 +57493,7 @@
         <nonGeneralPublicComment>
           <comment>
             <value lang="en">On the M5 southbound between junctions J1 and J2, minor delays are
-            possible due to roadworks closing one lane. Expect disruption until 5:30 am on 26 April
-            2013.</value>
+            possible due to roadworks closing one lane. Expect disruption until 5:30 am.</value>
           </comment>
         </nonGeneralPublicComment>
         <groupOfLocations>
